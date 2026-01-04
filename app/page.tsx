@@ -3,11 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex items-center justify-center h-screen">
-      <img
-        src="/logo-small.png"
+      <Image
+        src="/logo.png"
         alt="Action Toy Guide Logo"
         width={300}
         height={228}
+        unoptimized={true}
       />
     </main>
     // <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
