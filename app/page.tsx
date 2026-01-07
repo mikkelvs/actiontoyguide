@@ -35,99 +35,123 @@ const images = [
 
 export default function Home() {
   return (
-    <div className="grid">
-      <header className="w-full min-h-32">
-        <div className="mx-auto max-w-7xl p-8 text-right">
-          <div>
+    <div className="grid w-full mx-auto">
+      <div className="w-7xl mx-auto py-4 flex gap-8 justify-end text-white text-sm">
+        <Link href="/">About</Link>
+        <Link href="/">Kenner Products</Link>
+        <Link href="/">Instagram</Link>
+        <Link href="/" className="bg-pink-400 px-4 py-1 rounded-md">
+          Get In Touch
+        </Link>
+      </div>
+      <header className="w-7xl mx-auto pb-12">
+        <div className="mx-auto max-w-7xl flex">
+          <div className="w-1/5 justify-start">
             <Image
               src="/logo.png"
               alt="Action Toy Guide Logo"
               width={150}
               height={114}
               unoptimized={true}
-              className="absolute"
             />
           </div>
-          <div>
-            <Link href="/toys">Toys List</Link>
-          </div>
+          <nav className="w-4/5 flex gap-4 items-center justify-end">
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+              version="1"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+              version="2"
+            />
+            <NavigationButton
+              src="/images/1988.881232020/01.webp"
+              label="1988"
+              version="3"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1989"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1990"
+            />
+            <NavigationButton
+              src="/images/1988.881232020/01.webp"
+              label="1990"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1991"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1992"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1993"
+              version="1"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1994"
+              version="2"
+            />
+            <NavigationButton
+              src="/images/1988.881232020/01.webp"
+              label="1995"
+              version="3"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1995"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1996"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1997"
+            />
+          </nav>
         </div>
       </header>
-      <nav className="w-full bg-orange-400">
-        <div className="mx-auto max-w-7xl p-8">
-          <div className="flex text-center gap-4">
-            <NavigationButton
+
+      <main className="w-7xl mx-auto pb-12">
+        <div className="flex pb-12">
+          <div className="w-3/4 pr-12">
+            <Image
               src="/images/1988.881232000/01.webp"
-              label="1988"
+              alt="Sample Toy Image"
+              width={1600}
+              height={1100}
+              unoptimized={false}
+              className="border-white border-12 shadow-lg/50"
             />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-            />
+            <p className="flex justify-center p-4">
+              <span className="font-bold">1</span> &nbsp;/ 28
+            </p>
+          </div>
+          <div className="w-1/4">
+            <div className="border-2 border-purple-300 text-white p-8 rounded-xl">
+              <h1 className="text-4xl font-bold pb-4">1988 Action Toy Guide</h1>
+              <p className="text-lg">
+                The 1988 Kenner Star Wars Droids 12 Back Action Figure Set is a
+                collectible set of action figures based on the popular Star Wars
+                franchise. This set features characters from the animated series
+                "Star Wars: Droids," which aired in the mid-1980s. The figures
+                are designed with attention to detail, capturing the likeness of
+                the characters from the show.
+              </p>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <main className="max-w-6xl mx-auto px-4 py-8">
-        <div className="flex justify-center mb-12">
-          <Image
-            src="/images/1988.881232000/01.webp"
-            alt="Sample Toy Image"
-            width={800}
-            height={550}
-            unoptimized={false}
-            className="border-white border-8 shadow-2xl"
-          />
-        </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-7 gap-8">
           {images.map((src, index) => (
             <Image
               key={index}
@@ -136,57 +160,12 @@ export default function Home() {
               width={200}
               height={138}
               unoptimized={false}
-              className="border-white border-4 shadow-2xl"
+              className="w-full h-auto border-white border-4 shadow-2xl"
             />
           ))}
         </div>
       </main>
-      <footer>Footer</footer>
+      <footer className="w-7xl mx-auto">Footer</footer>
     </div>
-    // <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-    //   <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-    //     <Image
-    //       className="dark:invert"
-    //       src="/next.svg"
-    //       alt="Next.js logo"
-    //       width={100}
-    //       height={20}
-    //       priority
-    //     />
-    //     <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-    //       <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-    //         Action Toy Guide
-    //       </h1>
-    //       <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-    //         Coming soon.
-    //       </p>
-    //     </div>
-    //     <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-    //       <a
-    //         className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-    //         href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-    //         target="_blank"
-    //         rel="noopener noreferrer"
-    //       >
-    //         <Image
-    //           className="dark:invert"
-    //           src="/vercel.svg"
-    //           alt="Vercel logomark"
-    //           width={16}
-    //           height={16}
-    //         />
-    //         Deploy Now
-    //       </a>
-    //       <a
-    //         className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-    //         href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-    //         target="_blank"
-    //         rel="noopener noreferrer"
-    //       >
-    //         Documentation
-    //       </a>
-    //     </div>
-    //   </main>
-    // </div>
   );
 }
