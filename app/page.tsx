@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavigationButton from "./components/NavigationButton/NavigationButton";
 
 const images = [
   "/images/1988.881232000/01.webp",
@@ -34,19 +35,87 @@ const images = [
 
 export default function Home() {
   return (
-    <div className="">
-      <header className="flex justify-center p-8">
-        <Image
-          src="/logo.png"
-          alt="Action Toy Guide Logo"
-          width={300}
-          height={228}
-          unoptimized={true}
-        />
-        {/* <nav>
-          <Link href="/toys">Toys List</Link>
-        </nav> */}
+    <div className="grid">
+      <header className="w-full min-h-32">
+        <div className="mx-auto max-w-7xl p-8 text-right">
+          <div>
+            <Image
+              src="/logo.png"
+              alt="Action Toy Guide Logo"
+              width={150}
+              height={114}
+              unoptimized={true}
+              className="absolute"
+            />
+          </div>
+          <div>
+            <Link href="/toys">Toys List</Link>
+          </div>
+        </div>
       </header>
+      <nav className="w-full bg-orange-400">
+        <div className="mx-auto max-w-7xl p-8">
+          <div className="flex text-center gap-4">
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232000/01.webp"
+              label="1988"
+            />
+            <NavigationButton
+              src="/images/1988.881232010/01.webp"
+              label="1988"
+            />
+          </div>
+        </div>
+      </nav>
+
       <main className="max-w-6xl mx-auto px-4 py-8">
         <div className="flex justify-center mb-12">
           <Image
@@ -59,8 +128,9 @@ export default function Home() {
           />
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
-          {images.map((src) => (
+          {images.map((src, index) => (
             <Image
+              key={index}
               src={src}
               alt="Sample Toy Image"
               width={200}
@@ -71,6 +141,7 @@ export default function Home() {
           ))}
         </div>
       </main>
+      <footer>Footer</footer>
     </div>
     // <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
     //   <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
