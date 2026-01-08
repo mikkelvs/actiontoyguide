@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavigationButton from "../../components/NavigationButton/NavigationButton";
+import Header from "../../components/Header/Header";
 import data from "@/app/data";
 
 interface PageProps {
@@ -13,18 +13,18 @@ interface PageProps {
 export default async function Page({ params }: PageProps) {
   const { year, page } = await params;
 
-  const thumbnails = data.find((catalog) => catalog.catalog === year);
-
+  const selectedCatalog = data.find((catalog) => catalog.catalog === year);
+  const folder = selectedCatalog?.folder ?? "";
   const currentPage =
-    (thumbnails?.pages.findIndex((p) => p.fileName === page) ?? -1) + 1;
+    (selectedCatalog?.pages.findIndex((p) => p.fileName === page) ?? -1) + 1;
 
-  const catalogYear = thumbnails?.year ?? "";
+  const catalogYear = selectedCatalog?.year ?? "";
   const toyLine =
-    thumbnails?.pages.find((p) => p.fileName === page)?.toyLine ?? "";
+    selectedCatalog?.pages.find((p) => p.fileName === page)?.toyLine ?? "";
 
   return (
     <div className="grid max-w-7xl mx-auto px-8">
-      <div className="w-full py-4 flex gap-8 justify-end text-white text-sm">
+      <div className="w-full py-4 flex gap-8 justify-end items-center text-white text-xs">
         <Link href="/">About</Link>
         <Link href="/">Kenner Products</Link>
         <Link href="/">Instagram</Link>
@@ -32,89 +32,13 @@ export default async function Page({ params }: PageProps) {
           Get In Touch
         </Link>
       </div>
-      <header className="w-full mx-auto pb-12">
-        <div className="flex">
-          <div className="w-1/5 justify-start">
-            <Image
-              src="/logo.png"
-              alt="Action Toy Guide Logo"
-              width={150}
-              height={114}
-              unoptimized={true}
-            />
-          </div>
-          <nav className="w-4/5 flex gap-4 items-center justify-end">
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-              version="1"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-              version="2"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1988"
-              version="3"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1989"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1990"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1990"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1991"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1992"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1993"
-              version="1"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1994"
-              version="2"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1995"
-              version="3"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1995"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1996"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1997"
-            />
-          </nav>
-        </div>
-      </header>
+      <Header year={year} />
 
       <main className="max-w-7xl mx-auto pb-12">
         <div className="flex pb-12">
           <div className="sm:w-full lg:w-3/4 pr-12">
             <Image
-              src={`/images/1988.881232000/${page}.webp`}
+              src={`/images/${folder}/${page}.webp`}
               alt="Sample Toy Image"
               width={1600}
               height={1100}
@@ -123,7 +47,7 @@ export default async function Page({ params }: PageProps) {
             />
             <p className="flex justify-center p-4">
               <span className="font-bold">{currentPage}</span> &nbsp;/{" "}
-              {thumbnails?.pages.length}
+              {selectedCatalog?.pages.length}
             </p>
           </div>
           <div className="sm:w-full lg:w-1/4">
@@ -147,19 +71,21 @@ export default async function Page({ params }: PageProps) {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-7 gap-8">
-          {thumbnails?.pages.map((page, index) => (
+        <div className="grid grid-cols-7 gap-8 text-center">
+          {selectedCatalog?.pages.map((page, index) => (
             <Link key={index} href={`/${year}/${page.fileName}`}>
               <Image
                 key={index}
-                src={`/images/${thumbnails.folder}/${page.fileName}.webp`}
+                src={`/images/${selectedCatalog.folder}/${page.fileName}.webp`}
                 alt="Sample Toy Image"
                 width={200}
                 height={138}
                 unoptimized={false}
                 className="w-full h-auto border-white border-4 shadow-2xl"
               />
-              <p className="text-center mt-2">{page.fileName}</p>
+              <span className="inline-block px-4 py-1 text-center mt-2 bg-blue-400 text-white rounded-md font-bold">
+                {page.fileName}
+              </span>
             </Link>
           ))}
         </div>

@@ -4,11 +4,11 @@ import NavigationButtonProps from "./NavigationButton.types";
 
 const NavigationButton = (props: NavigationButtonProps): React.JSX.Element => {
   return (
-    <Link href="/" className="">
+    <Link href={props.href} className="text-center">
       <Image
         src={props.src}
         alt="Image"
-        width={50}
+        width={100}
         height={55}
         unoptimized={false}
         className="border-white hover:border-amber-300 border-2 shadow-md"
