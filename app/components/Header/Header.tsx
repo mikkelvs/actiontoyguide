@@ -40,7 +40,7 @@ const Header = (props: HeaderProps) => {
           ))}
         </nav>
         <nav className="w-4/5 md:hidden flex justify-end items-center">
-          <NavigationSelect data={data} selectedValue={props.year} />
+          <NavigationSelect data={data} selectedValue={props.year ?? ""} />
         </nav>
       </div>
     </header>

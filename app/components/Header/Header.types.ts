@@ -1,5 +1,5 @@
 type HeaderProps = {
-  year: string;
+  year?: string;
 };
 
 export default HeaderProps;

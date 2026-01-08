@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavigationButton from "./components/NavigationButton/NavigationButton";
+import Header from "./components/Header/Header";
 
 const images = [
   "/images/1988.881232000/01.webp",
@@ -44,83 +44,7 @@ export default function Home() {
           Get In Touch
         </Link>
       </div>
-      <header className="w-7xl mx-auto pb-12">
-        <div className="mx-auto max-w-7xl flex">
-          <div className="w-1/5 justify-start">
-            <Image
-              src="/logo.png"
-              alt="Action Toy Guide Logo"
-              width={150}
-              height={114}
-              unoptimized={true}
-            />
-          </div>
-          <nav className="w-4/5 flex gap-4 items-center justify-end">
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1988"
-              version="1"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1988"
-              version="2"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1988"
-              version="3"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1989"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1990"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1990"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1991"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1992"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1993"
-              version="1"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1994"
-              version="2"
-            />
-            <NavigationButton
-              src="/images/1988.881232020/01.webp"
-              label="1995"
-              version="3"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1995"
-            />
-            <NavigationButton
-              src="/images/1988.881232010/01.webp"
-              label="1996"
-            />
-            <NavigationButton
-              src="/images/1988.881232000/01.webp"
-              label="1997"
-            />
-          </nav>
-        </div>
-      </header>
+      <Header />
 
       <main className="w-7xl mx-auto pb-12">
         <div className="flex pb-12">
