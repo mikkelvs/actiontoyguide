@@ -8,7 +8,7 @@ const NavigationSelect = (props: NavigationSelectProps): React.JSX.Element => {
   return (
     <select
       defaultValue={props.selectedValue}
-      className="block h-10 w-sm rounded-md border bg-pink-500 border-gray-300 text-sm text-white"
+      className="block h-10 w-xxs rounded-md border bg-pink-500 border-gray-300 text-sm text-white"
       onChange={(e) => router.push(`/${e.target.value}/01`)}
     >
       <option>Select Catalog Year</option>

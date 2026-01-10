@@ -8,7 +8,7 @@ const Header = (props: HeaderProps) => {
   return (
     <header className="w-full mx-auto pb-12">
       <div className="flex">
-        <div className="w-1/5 justify-start pr-8">
+        <div className="w-2/5 md:w-1/5 justify-start pr-4 md:pr-8">
           <Image
             src="/logo.png"
             alt="Action Toy Guide Logo"
@@ -17,18 +17,7 @@ const Header = (props: HeaderProps) => {
             unoptimized={true}
           />
         </div>
-        <nav className="w-4/5 gap-4 items-center justify-end hidden lg:flex">
-          {data.map((catalog, index) => (
-            <NavigationButton
-              key={index}
-              src={`/images/${catalog.folder}/01.webp`}
-              label={catalog.year}
-              version={catalog.catalog.split("-")[1]}
-              href={`/${catalog.catalog}/01`}
-            />
-          ))}
-        </nav>
-        <nav className="w-4/5 hidden md:grid grid-cols-7 gap-4 lg:hidden">
+        <nav className="w-3/5 md:w-4/5 md:grid grid-cols-7 gap-4 md:gap-4 lg:items-center lg:justify-end hidden lg:flex">
           {data.map((catalog, index) => (
             <NavigationButton
               key={index}
