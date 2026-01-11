@@ -1,21 +1,30 @@
+"use client";
+
 import Image from "next/image";
 import NavigationButton from "../../components/NavigationButton/NavigationButton";
 import data from "@/app/data";
 import NavigationSelect from "@/app/components/NavigationSelect/NavigationSelect";
 import HeaderProps from "./Header.types";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 
-const Header = (props: HeaderProps) => {
+const Header = () => {
+  const params = useParams<{ year: string }>();
+  const catalog = params?.year || "";
+
   return (
     <header className="w-full mx-auto pb-12">
       <div className="flex">
         <div className="w-2/5 md:w-1/5 justify-start pr-4 md:pr-8">
-          <Image
-            src="/logo.png"
-            alt="Action Toy Guide Logo"
-            width={150}
-            height={114}
-            unoptimized={true}
-          />
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt="Action Toy Guide Logo"
+              width={150}
+              height={114}
+              unoptimized={true}
+            />
+          </Link>
         </div>
         <nav className="w-3/5 md:w-4/5 md:grid grid-cols-7 gap-4 md:gap-4 lg:items-center lg:justify-end hidden lg:flex">
           {data.map((catalog, index) => (
@@ -29,7 +38,7 @@ const Header = (props: HeaderProps) => {
           ))}
         </nav>
         <nav className="w-4/5 md:hidden flex justify-end items-center">
-          <NavigationSelect data={data} selectedValue={props.year ?? ""} />
+          <NavigationSelect data={data} selectedValue={catalog} />
         </nav>
       </div>
     </header>

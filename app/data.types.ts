@@ -1,6 +1,7 @@
 type Page = {
   fileName: string;
   toyLine: string;
+  description: string;
 };
 
 type Catalog = {
