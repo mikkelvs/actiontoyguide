@@ -1,9 +1,33 @@
-const theRealGhostbustersTitle = "The Real Ghostbusters";
-const theRealGhostbustersDescription =
+const boneAgeTitle = "Bone Age";
+const boneAgeDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const maskSplitSecondsTitle = "M.A.S.K. Split Seconds";
+const maskSplitSecondsDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const roboCopTitle = "RoboCop";
+const roboCopDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const silverhawksTitle = "Silverhawks";
+const silverhawksDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const skyballTitle = "Skyball";
+const skyballDescription =
   "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
 
 const skyCommandersTitle = "Sky Commanders";
 const skyCommandersDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const startingLineupTitle = "Starting Lineup";
+const startingLineupDescription =
+  "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
+
+const theRealGhostbustersTitle = "The Real Ghostbusters";
+const theRealGhostbustersDescription =
   "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
 
 const data: Catalog[] = [
@@ -49,68 +73,68 @@ const data: Catalog[] = [
       },
       {
         fileName: "08",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "09",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "10",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "11",
-        toyLine: "Bone Age",
+        toyLine: boneAgeTitle,
         description: theRealGhostbustersDescription,
       },
       {
         fileName: "12",
-        toyLine: "Bone Age",
+        toyLine: boneAgeTitle,
         description: theRealGhostbustersDescription,
       },
       {
         fileName: "13",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "14",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: silverhawksTitle,
+        description: silverhawksDescription,
       },
       {
         fileName: "15",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: silverhawksTitle,
+        description: silverhawksDescription,
       },
       {
         fileName: "16",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: silverhawksTitle,
+        description: silverhawksDescription,
       },
       {
         fileName: "17",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "18",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "19",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "20",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "21",
@@ -134,23 +158,23 @@ const data: Catalog[] = [
       },
       {
         fileName: "25",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: maskSplitSecondsTitle,
+        description: maskSplitSecondsDescription,
       },
       {
         fileName: "26",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: maskSplitSecondsTitle,
+        description: maskSplitSecondsDescription,
       },
       {
         fileName: "27",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: maskSplitSecondsTitle,
+        description: maskSplitSecondsDescription,
       },
       {
         fileName: "28",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: maskSplitSecondsTitle,
+        description: maskSplitSecondsDescription,
       },
     ],
   },
@@ -196,108 +220,108 @@ const data: Catalog[] = [
       },
       {
         fileName: "08",
-        toyLine: "Bone Age",
+        toyLine: theRealGhostbustersTitle,
         description: theRealGhostbustersDescription,
       },
       {
         fileName: "09",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "10",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "11",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "12",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "13",
-        toyLine: "Bone Age",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "14",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "15",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
       },
       {
         fileName: "16",
-        toyLine: "Silverhawks",
-        description: theRealGhostbustersDescription,
+        toyLine: silverhawksTitle,
+        description: silverhawksDescription,
       },
       {
         fileName: "17",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: silverhawksTitle,
+        description: silverhawksDescription,
       },
       {
         fileName: "18",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "19",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "20",
-        toyLine: "Starting Lineup",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "21",
-        toyLine: skyCommandersTitle,
-        description: skyCommandersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "22",
-        toyLine: skyCommandersTitle,
-        description: skyCommandersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "23",
-        toyLine: skyCommandersTitle,
-        description: skyCommandersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "24",
-        toyLine: skyCommandersTitle,
-        description: skyCommandersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "25",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "26",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "27",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
       },
       {
         fileName: "28",
-        toyLine: "M.A.S.K. Split Seconds",
-        description: theRealGhostbustersDescription,
+        toyLine: skyballTitle,
+        description: skyballDescription,
       },
     ],
   },
@@ -310,6 +334,141 @@ const data: Catalog[] = [
         fileName: "01",
         toyLine: "Front Cover",
         description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "02",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "03",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "04",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "05",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "06",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "07",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "08",
+        toyLine: theRealGhostbustersTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "09",
+        toyLine: boneAgeTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "10",
+        toyLine: boneAgeTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "11",
+        toyLine: boneAgeTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "12",
+        toyLine: boneAgeTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "13",
+        toyLine: boneAgeTitle,
+        description: theRealGhostbustersDescription,
+      },
+      {
+        fileName: "14",
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
+      },
+      {
+        fileName: "15",
+        toyLine: boneAgeTitle,
+        description: boneAgeDescription,
+      },
+      {
+        fileName: "16",
+        toyLine: roboCopTitle,
+        description: roboCopDescription,
+      },
+      {
+        fileName: "17",
+        toyLine: roboCopTitle,
+        description: roboCopDescription,
+      },
+      {
+        fileName: "18",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "19",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "20",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "21",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "22",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "23",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "24",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "25",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "26",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "27",
+        toyLine: startingLineupTitle,
+        description: startingLineupDescription,
+      },
+      {
+        fileName: "28",
+        toyLine: skyballTitle,
+        description: skyballDescription,
       },
     ],
   },
