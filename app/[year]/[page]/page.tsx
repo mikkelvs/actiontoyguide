@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../../components/Header/Header";
-import TopNavigation from "../../components/TopNavigation/TopNavigation";
 import { PageProps } from "@/app/[year]/[page]/page.types";
 import data from "@/app/data";
 
@@ -32,34 +30,38 @@ export default async function Page({ params }: PageProps) {
             unoptimized={false}
             className="border-white border-8 lg:border-12 shadow-lg/50"
           />
-          <div className="flex justify-center items-center p-4">
-            {pageIndex > 0 && (
-              <Link
-                href={`/${year}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-                className="inline-block px-4 py-1 mr-4 text-center text-white rounded-md font-bold bg-blue-500"
-              >
-                Previous
-              </Link>
-            )}
+          <div className="flex justify-between py-8">
+            <Link
+              href={`/${year}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
+              className={`inline-block px-4 py-1 mr-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
+                pageIndex > 0 ? "" : "pointer-events-none opacity-50"
+              }`}
+            >
+              Previous
+            </Link>
+
             <div className="inline-block px-4">
               <span className="font-bold">{currentPage}</span> &nbsp;/{" "}
               {catalog?.pages.length}
             </div>
-            {pageIndex < pages.length - 1 && (
-              <Link
-                href={`/${year}/${
-                  pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
-                }`}
-                className="inline-block px-4 py-1 ml-4 text-center text-white rounded-md font-bold bg-blue-500"
-              >
-                Next
-              </Link>
-            )}
+
+            <Link
+              href={`/${year}/${
+                pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
+              }`}
+              className={`inline-block px-4 py-1 ml-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
+                pageIndex < pages.length - 1
+                  ? ""
+                  : "pointer-events-none opacity-50"
+              }`}
+            >
+              Next
+            </Link>
           </div>
         </div>
         <div className="sm:w-full lg:w-4/12">
-          <div className="border-2 border-purple-300 text-white p-8 rounded-xl">
-            <h1 className="text-3xl font-bold md:pb-4">
+          <div className="border-t-2 border-b-2 md:border-0 md:border-l-2 border-purple-300 text-white py-8 md:py-0 md:px-8">
+            <h1 className="text-3xl font-bold">
               {catalogYear} Action Toy Guide
             </h1>
             <h3 className="text-3xl font-bold mb-2 text-blue-400"></h3>
@@ -89,7 +91,7 @@ export default async function Page({ params }: PageProps) {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 lg:grid-cols-8 gap-8 text-center">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 text-center">
         {catalog?.pages.map((page, index) => (
           <Link key={index} href={`/${year}/${page.fileName}`}>
             <Image

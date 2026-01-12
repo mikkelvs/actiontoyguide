@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const TopNavigation = () => {
   return (
-    <div className="w-full py-4 flex gap-4 md:gap-8 justify-end items-center text-white text-xs">
+    <div className="w-full py-4 flex gap-4 md:gap-12 justify-end items-center text-white text-sm">
       <Link href="/">About</Link>
       <Link href="/">Kenner Products</Link>
-      <Link href="/">
+      <Link href="/" className="border-2 px-2 md:px-4 py-1 rounded-md">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6 inline-block mr-2"
+          className="size-6 inline-block md:mr-2"
         >
           <path
             strokeLinecap="round"
@@ -27,7 +27,10 @@ const TopNavigation = () => {
         </svg>
         <span className="hidden md:inline-block">Instagram</span>
       </Link>
-      <Link href="/" className="bg-pink-400 px-4 py-1 rounded-md">
+      <Link
+        href="/"
+        className="border-2 px-2 md:px-4 py-1 rounded-md bg-pink-400 "
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
