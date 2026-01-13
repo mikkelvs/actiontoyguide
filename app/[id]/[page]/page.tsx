@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { PageProps } from "@/app/[id]/[page]/page.types";
+import InfoBox from "@/app/components/InfoBox/InfoBox";
+import Pagination from "@/app/components/Pagination/Pagination";
 import data from "@/app/data";
 
 export async function generateStaticParams() {
@@ -21,16 +23,15 @@ const Page = async ({ params }: PageProps) => {
 
   const pageIndex = pages.findIndex((p) => p.fileName === page);
 
-  const currentPage = pageIndex + 1;
   const catalogYear = catalog?.year ?? "";
   const catalogNumber = catalog?.catalogNumber ?? "";
 
   const { toyLine = "", description = "" } = pages[pageIndex] ?? {};
 
   return (
-    <main className="max-w-7xl mx-auto">
-      <div className="lg:flex pb-12">
-        <div className="lg:w-8/12 lg:pr-8">
+    <main className="w-full">
+      <div className="flex flex-col lg:flex-row pb-8">
+        <div className="w-full lg:w-8/12 lg:pr-8">
           <Image
             src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
             alt="Sample Toy Image"
@@ -39,38 +40,11 @@ const Page = async ({ params }: PageProps) => {
             unoptimized={false}
             className="border-white border-8 lg:border-12 shadow-lg/50"
           />
-          <div className="flex justify-between py-8">
-            <Link
-              href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-              className={`inline-block px-4 py-1 mr-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
-                pageIndex > 0 ? "" : "pointer-events-none opacity-50"
-              }`}
-            >
-              Previous
-            </Link>
-
-            <div className="inline-block px-4">
-              <span className="font-bold">{currentPage}</span> /{" "}
-              {catalog?.pages.length}
-            </div>
-
-            <Link
-              href={`/${id}/${
-                pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
-              }`}
-              className={`inline-block px-4 py-1 ml-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
-                pageIndex < pages.length - 1
-                  ? ""
-                  : "pointer-events-none opacity-50"
-              }`}
-            >
-              Next
-            </Link>
-          </div>
+          <Pagination />
         </div>
-        <div className="sm:w-full lg:w-4/12">
-          <div className="border-t-2 border-b-2 md:border-0 md:border-l-2 border-purple-300 text-white py-8 md:py-0 md:px-8">
-            <h1 className="text-3xl font-bold">
+        <div className="w-full lg:w-4/12">
+          <div className="border-t-2 border-b-2 lg:border-0 lg:border-l-2 border-purple-300 text-white py-8 lg:py-0 lg:pl-8">
+            <h1 className="text-5xl font-bold">
               {catalogYear} Action Toy Guide
             </h1>
             <h3 className="text-3xl font-bold mb-2 text-blue-400"></h3>
@@ -79,24 +53,17 @@ const Page = async ({ params }: PageProps) => {
               {toyLine}
             </span>
 
-            <dl className="w-full space-y-2 bg-white mt-8 p-4 rounded-md text-black text-md">
-              <div className="flex justify-between gap-4">
-                <dt className="font-bold uppercase">Year</dt>
-                <dd className="text-orange-500 text-right">{catalogYear}</dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt className="font-bold uppercase">Catalog #</dt>
-                <dd className="text-orange-500 text-right">{catalogNumber}</dd>
-              </div>
-              <div className="flex justify-between gap-4">
-                <dt className="font-bold uppercase">Pages</dt>
-                <dd className="text-orange-500 text-right">
-                  {catalog?.pages.length}
-                </dd>
-              </div>
-            </dl>
+            <div className="flex flex-col md:flex-row-reverse lg:flex-col">
+              <InfoBox
+                year={catalogYear}
+                number={catalogNumber}
+                pages={catalog?.pages.length || 0}
+              />
 
-            <p className="text-lg mt-8">{description}</p>
+              <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
+                {description}
+              </p>
+            </div>
           </div>
         </div>
       </div>

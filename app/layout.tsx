@@ -1,8 +1,10 @@
+import "./globals.css";
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import TopNavigation from "./components/TopNavigation/TopNavigation";
+
 import Header from "./components/Header/Header";
+import TopNavigation from "./components/TopNavigation/TopNavigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,11 +32,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid max-w-7xl mx-auto px-4 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
           <TopNavigation />
           <Header />
           {children}
-          <footer className="w-full mx-auto p-8 text-center">
+          <footer className="w-full p-8 text-center">
             Not endorsed by Hasbro or Kenner. Informational purposes only.
           </footer>
         </div>

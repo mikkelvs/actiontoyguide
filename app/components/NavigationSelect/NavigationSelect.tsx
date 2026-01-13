@@ -1,20 +1,25 @@
 "use client";
-import { useRouter } from "next/navigation";
+
+import { useParams, useRouter } from "next/navigation";
 
 import NavigationSelectProps from "./NavigationSelect.types";
 
 const NavigationSelect = (props: NavigationSelectProps): React.JSX.Element => {
   const router = useRouter();
+  const params = useParams<{ id: string }>();
+  const selectedId = params?.id ?? "";
 
   return (
     <select
-      defaultValue={props.selectedValue}
+      value={selectedId}
       className="block h-10 w-xxs rounded-md border bg-pink-500 border-gray-300 text-sm text-white"
       onChange={(e) => router.push(`/${e.target.value}/01`)}
     >
-      <option>Select Catalog Year</option>
+      <option value="">Select Catalog Year</option>
       {props.data.map((catalog, index) => (
-        <option key={index} label={catalog.id} value={catalog.id} />
+        <option key={index} value={catalog.id}>
+          {catalog.id}
+        </option>
       ))}
     </select>
   );

@@ -2,22 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 import NavigationSelect from "@/app/components/NavigationSelect/NavigationSelect";
 import data from "@/app/data";
 
 import NavigationButton from "../../components/NavigationButton/NavigationButton";
-import HeaderProps from "./Header.types";
 
-const Header = (props: HeaderProps) => {
-  const params = useParams<{ year: string }>();
+const Header = () => {
   const pathname = usePathname();
-
-  const catalog = params?.year || "";
   const isHomePage = pathname === "/";
-
-  console.log(isHomePage, pathname);
 
   return (
     <header className="w-full mx-auto pb-12">
@@ -61,7 +55,7 @@ const Header = (props: HeaderProps) => {
             isHomePage ? "hidden" : ""
           }`}
         >
-          <NavigationSelect data={data} selectedValue={catalog} />
+          <NavigationSelect data={data} />
         </nav>
       </div>
     </header>
