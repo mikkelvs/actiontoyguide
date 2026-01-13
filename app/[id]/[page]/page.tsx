@@ -38,7 +38,7 @@ const Page = async ({ params }: PageProps) => {
             width={1600}
             height={1100}
             unoptimized={false}
-            className="border-white border-8 lg:border-12 shadow-lg/50"
+            className="border-white border-8 lg:border-12 shadow-2xl"
           />
           <Pagination />
         </div>
@@ -76,7 +76,7 @@ const Page = async ({ params }: PageProps) => {
               alt="Sample Toy Image"
               width={200}
               height={138}
-              className="w-full h-auto border-white border-4 shadow-md/50"
+              className="w-full h-auto border-white border-4 shadow-2xl"
             />
             <span className="inline-block px-4 py-1 text-center mt-4 text-white rounded-md font-bold border-2 hover:border-pink-400">
               {page.fileName}
