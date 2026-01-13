@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { PageProps } from "@/app/[year]/[page]/page.types";
 import data from "@/app/data";
+import Badge from "./components/Badge/Badge";
 
 export default async function Page({ params }: PageProps) {
   const { year, page } = await params;
@@ -29,9 +30,7 @@ export default async function Page({ params }: PageProps) {
             height={1100}
             className="w-full h-auto border-white border-4 shadow-md/50"
           />
-          <span className="inline-block px-4 py-1 text-center mt-4 text-white rounded-md font-bold border-2 hover:border-pink-400">
-            {catalog.year}
-          </span>
+          <Badge>{catalog.year}</Badge>
         </Link>
       ))}
     </main>

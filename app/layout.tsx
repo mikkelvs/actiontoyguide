@@ -34,7 +34,7 @@ export default function RootLayout({
           <TopNavigation />
           <Header />
           {children}
-          <footer className="lg:max-w-7xl mx-auto p-8">
+          <footer className="w-full mx-auto p-8 text-center">
             Not endorsed by Hasbro or Kenner. Informational purposes only.
           </footer>
         </div>
