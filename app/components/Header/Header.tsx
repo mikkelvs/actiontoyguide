@@ -1,12 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import NavigationButton from "../../components/NavigationButton/NavigationButton";
-import data from "@/app/data";
-import NavigationSelect from "@/app/components/NavigationSelect/NavigationSelect";
-import HeaderProps from "./Header.types";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
+
+import NavigationSelect from "@/app/components/NavigationSelect/NavigationSelect";
+import data from "@/app/data";
+
+import NavigationButton from "../../components/NavigationButton/NavigationButton";
+import HeaderProps from "./Header.types";
 
 const Header = (props: HeaderProps) => {
   const params = useParams<{ year: string }>();
@@ -47,10 +49,10 @@ const Header = (props: HeaderProps) => {
           {data.map((catalog, index) => (
             <NavigationButton
               key={index}
-              src={`/images/${catalog.folder}/01.webp`}
+              src={`/images/${catalog.year}.${catalog.catalogNumber}/01.webp`}
               label={catalog.year}
-              version={catalog.catalog.split("-")[1]}
-              href={`/${catalog.catalog}/01`}
+              version={catalog.id.split("-")[1]}
+              href={`/${catalog.id}/01`}
             />
           ))}
         </nav>

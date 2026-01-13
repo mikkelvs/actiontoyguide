@@ -4,9 +4,9 @@ type Page = {
   description: string;
 };
 
-type Catalog = {
-  folder: string;
-  catalog: string;
+export type Catalog = {
+  catalogNumber: string;
+  id: string;
   year: string;
   pages: Page[];
 };

@@ -1,3 +1,5 @@
+import { Catalog } from "./data.types";
+
 const boneAgeTitle = "Bone Age";
 const boneAgeDescription =
   "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.";
@@ -32,8 +34,8 @@ const theRealGhostbustersDescription =
 
 const data: Catalog[] = [
   {
-    folder: "1988.881232000",
-    catalog: "1988-1",
+    catalogNumber: "881232000",
+    id: "1988-1",
     year: "1988",
     pages: [
       {
@@ -179,8 +181,8 @@ const data: Catalog[] = [
     ],
   },
   {
-    folder: "1988.881232010",
-    catalog: "1988-2",
+    catalogNumber: "881232010",
+    id: "1988-2",
     year: "1988",
     pages: [
       {
@@ -326,8 +328,8 @@ const data: Catalog[] = [
     ],
   },
   {
-    folder: "1988.881232020",
-    catalog: "1988-3",
+    catalogNumber: "881232020",
+    id: "1988-3",
     year: "1988",
     pages: [
       {
@@ -473,8 +475,8 @@ const data: Catalog[] = [
     ],
   },
   {
-    folder: "1989.881233000",
-    catalog: "1989",
+    catalogNumber: "881233000",
+    id: "1989",
     year: "1989",
     pages: [
       {
@@ -485,8 +487,8 @@ const data: Catalog[] = [
     ],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1990",
+    catalogNumber: "881242000",
+    id: "1990",
     year: "1990",
     pages: [
       {
@@ -497,57 +499,57 @@ const data: Catalog[] = [
     ],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
   {
-    folder: "1990.881242000",
-    catalog: "1989",
-    year: "1989",
+    catalogNumber: "881242000",
+    id: "1990",
+    year: "1990",
     pages: [],
   },
 ];

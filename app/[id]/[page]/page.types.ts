@@ -1,6 +1,6 @@
 export type PageProps = {
   params: Promise<{
-    year: string;
+    id: string;
     page: string;
   }>;
 };

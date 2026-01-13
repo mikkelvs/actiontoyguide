@@ -1,20 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PageProps } from "@/app/[year]/[page]/page.types";
+
+import { PageProps } from "@/app/[id]/[page]/page.types";
 import data from "@/app/data";
 
-export default async function Page({ params }: PageProps) {
-  const { year, page } = await params;
+export async function generateStaticParams() {
+  return data.flatMap((catalog) =>
+    catalog.pages.map((page) => ({
+      id: catalog.id.toString(),
+      page: page.fileName,
+    }))
+  );
+}
 
-  const catalog = data.find((c) => c.catalog === year);
+const Page = async ({ params }: PageProps) => {
+  const { id, page } = await params;
+
+  const catalog = data.find((c) => c.id === id);
   const pages = catalog?.pages ?? [];
 
   const pageIndex = pages.findIndex((p) => p.fileName === page);
 
   const currentPage = pageIndex + 1;
   const catalogYear = catalog?.year ?? "";
-  const catalogNumber = catalog?.folder ?? "";
-  const folder = catalog?.folder ?? "";
+  const catalogNumber = catalog?.catalogNumber ?? "";
 
   const { toyLine = "", description = "" } = pages[pageIndex] ?? {};
 
@@ -23,7 +32,7 @@ export default async function Page({ params }: PageProps) {
       <div className="lg:flex pb-12">
         <div className="lg:w-8/12 lg:pr-8">
           <Image
-            src={`/images/${folder}/${page}.webp`}
+            src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
             alt="Sample Toy Image"
             width={1600}
             height={1100}
@@ -32,7 +41,7 @@ export default async function Page({ params }: PageProps) {
           />
           <div className="flex justify-between py-8">
             <Link
-              href={`/${year}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
+              href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
               className={`inline-block px-4 py-1 mr-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
                 pageIndex > 0 ? "" : "pointer-events-none opacity-50"
               }`}
@@ -41,12 +50,12 @@ export default async function Page({ params }: PageProps) {
             </Link>
 
             <div className="inline-block px-4">
-              <span className="font-bold">{currentPage}</span> &nbsp;/{" "}
+              <span className="font-bold">{currentPage}</span> /{" "}
               {catalog?.pages.length}
             </div>
 
             <Link
-              href={`/${year}/${
+              href={`/${id}/${
                 pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
               }`}
               className={`inline-block px-4 py-1 ml-4 text-center text-white rounded-md font-bold w-24 bg-blue-500 border-2 ${
@@ -93,10 +102,10 @@ export default async function Page({ params }: PageProps) {
       </div>
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 text-center">
         {catalog?.pages.map((page, index) => (
-          <Link key={index} href={`/${year}/${page.fileName}`}>
+          <Link key={index} href={`/${id}/${page.fileName}`}>
             <Image
               key={index}
-              src={`/images/${catalog.folder}/${page.fileName}.webp`}
+              src={`/images/${catalogYear}.${catalogNumber}/${page.fileName}.webp`}
               alt="Sample Toy Image"
               width={200}
               height={138}
@@ -110,13 +119,6 @@ export default async function Page({ params }: PageProps) {
       </div>
     </main>
   );
-}
+};
 
-export async function generateStaticParams() {
-  return data.flatMap((catalog) =>
-    catalog.pages.map((page) => ({
-      year: catalog.year.toString(),
-      page: page.fileName,
-    }))
-  );
-}
+export default Page;
