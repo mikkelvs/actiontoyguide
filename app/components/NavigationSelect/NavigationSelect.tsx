@@ -1,6 +1,7 @@
 "use client";
-import NavigationSelectProps from "./NavigationSelect.types";
 import { useRouter } from "next/navigation";
+
+import NavigationSelectProps from "./NavigationSelect.types";
 
 const NavigationSelect = (props: NavigationSelectProps): React.JSX.Element => {
   const router = useRouter();
@@ -13,7 +14,7 @@ const NavigationSelect = (props: NavigationSelectProps): React.JSX.Element => {
     >
       <option>Select Catalog Year</option>
       {props.data.map((catalog, index) => (
-        <option key={index} label={catalog.catalog} value={catalog.catalog} />
+        <option key={index} label={catalog.id} value={catalog.id} />
       ))}
     </select>
   );
