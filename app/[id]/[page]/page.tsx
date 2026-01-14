@@ -44,14 +44,13 @@ const Page = async ({ params }: PageProps) => {
         </div>
         <div className="w-full lg:w-4/12">
           <div className="border-t-2 border-b-2 lg:border-0 lg:border-l-2 border-purple-300 text-white py-8 lg:py-0 lg:pl-8">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-3xl font-bold mb-2">
               {catalogYear} Action Toy Guide
             </h1>
-            <h3 className="text-3xl font-bold mb-2 text-blue-400"></h3>
 
-            <span className="text-blue-400 uppercase font-bold text-lg">
+            <h2 className="text-blue-400 uppercase font-bold text-lg">
               {toyLine}
-            </span>
+            </h2>
 
             <div className="flex flex-col md:flex-row-reverse lg:flex-col">
               <InfoBox
