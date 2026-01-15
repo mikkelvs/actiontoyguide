@@ -26,7 +26,7 @@ const Page = async ({ params }: PageProps) => {
   const catalogYear = catalog?.year ?? "";
   const catalogNumber = catalog?.catalogNumber ?? "";
 
-  const { toyLine = "", description = "" } = pages[pageIndex] ?? {};
+  const { toyLine, description } = pages[pageIndex] ?? {};
 
   return (
     <main className="w-full">
@@ -49,7 +49,7 @@ const Page = async ({ params }: PageProps) => {
             </h1>
 
             <h2 className="text-blue-400 uppercase font-bold text-lg">
-              {toyLine}
+              {toyLine.name}
             </h2>
 
             <div className="flex flex-col md:flex-row-reverse lg:flex-col">
@@ -60,7 +60,7 @@ const Page = async ({ params }: PageProps) => {
               />
 
               <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
-                {description}
+                {toyLine.description}
               </p>
             </div>
           </div>

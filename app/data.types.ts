@@ -1,11 +1,11 @@
-type ToyLine = {
+export type ToyLine = {
   id: string;
   slug: string;
   name: string;
   description: string;
 };
 
-type Page = {
+export type Page = {
   fileName: string;
   toyLine: ToyLine;
   description: string;
