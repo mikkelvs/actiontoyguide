@@ -1,6 +1,13 @@
+type ToyLine = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string;
+};
+
 type Page = {
   fileName: string;
-  toyLine: string;
+  toyLine: ToyLine;
   description: string;
 };
 
