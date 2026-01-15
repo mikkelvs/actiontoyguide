@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { PageProps } from "@/app/[id]/[page]/page.types";
+import Badge from "@/app/components/Badge/Badge";
 import InfoBox from "@/app/components/InfoBox/InfoBox";
 import Pagination from "@/app/components/Pagination/Pagination";
 import data from "@/app/data";
@@ -77,9 +78,7 @@ const Page = async ({ params }: PageProps) => {
               height={138}
               className="w-full h-auto border-white border-4 shadow-2xl"
             />
-            <span className="inline-block px-4 py-1 text-center mt-4 text-white rounded-md font-bold border-2 hover:border-pink-400">
-              {page.fileName}
-            </span>
+            <Badge>{page.fileName}</Badge>
           </Link>
         ))}
       </div>

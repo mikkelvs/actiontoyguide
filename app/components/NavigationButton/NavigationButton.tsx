@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+
 import NavigationButtonProps from "./NavigationButton.types";
 
 const NavigationButton = (props: NavigationButtonProps): React.JSX.Element => {
