@@ -556,6 +556,141 @@ const data: Catalog[] = [
         toyLine: _frontCover,
         description: "",
       },
+      {
+        fileName: "02",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: buildingBlasters,
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: buildingBlasters,
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: buildingBlasters,
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "25",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "26",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "27",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "28",
+        toyLine: blastJets,
+        description: "",
+      },
     ],
   },
   {
