@@ -113,7 +113,8 @@ const data: Catalog[] = [
       {
         fileName: "01",
         toyLine: _frontCover,
-        description: "",
+        description:
+          "The 1988 Action Toy Guide contains the lines The Real Ghostbusters, Bone Age, Silverhawks, Starting Lineup, Sky Commanders and M.A.S.K. Split Seconds",
       },
       {
         fileName: "02",

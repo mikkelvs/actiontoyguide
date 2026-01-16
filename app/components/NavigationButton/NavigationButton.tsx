@@ -3,22 +3,25 @@ import Link from "next/link";
 
 import NavigationButtonProps from "./NavigationButton.types";
 
-const NavigationButton = (props: NavigationButtonProps): React.JSX.Element => {
+const NavigationButton = ({
+  href,
+  src,
+  active,
+  label,
+}: NavigationButtonProps): React.JSX.Element => {
   return (
-    <Link href={props.href} className="text-center">
+    <Link href={href} className="text-center">
       <Image
-        src={props.src}
+        src={src}
         alt="Image"
         width={100}
         height={55}
-        unoptimized={false}
-        className="border-white hover:border-amber-300 border-2 shadow-md"
+        className={`hover:border-amber-300 border-2 shadow-md" ${
+          active ? "border-amber-300" : "border-white"
+        }`}
       />
       <div className="text-sm text-white rounded-md mt-2 text-center">
-        {props.label}{" "}
-        {/* {props.version && (
-            <span className="text-gray-500">({props.version})</span>
-          )} */}
+        {label}
       </div>
     </Link>
   );

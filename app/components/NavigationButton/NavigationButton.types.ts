@@ -1,8 +1,8 @@
 type NavigationButtonProps = {
   src: string;
   label: string;
-  version?: string;
   href: string;
+  active: boolean;
 };
 
 export default NavigationButtonProps;

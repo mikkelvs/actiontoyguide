@@ -38,7 +38,7 @@ const Page = async ({ params }: PageProps) => {
             alt="Sample Toy Image"
             width={1600}
             height={1100}
-            unoptimized={false}
+            unoptimized
             className="border-white border-8 lg:border-12 shadow-2xl"
           />
           <Pagination />
@@ -58,6 +58,7 @@ const Page = async ({ params }: PageProps) => {
                 year={catalogYear}
                 number={catalogNumber}
                 pages={catalog?.pages.length || 0}
+                description={description}
               />
 
               <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
@@ -68,17 +69,19 @@ const Page = async ({ params }: PageProps) => {
         </div>
       </div>
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 text-center">
-        {catalog?.pages.map((page, index) => (
-          <Link key={index} href={`/${id}/${page.fileName}`}>
+        {catalog?.pages.map((p, index) => (
+          <Link key={index} href={`/${id}/${p.fileName}`}>
             <Image
               key={index}
-              src={`/images/${catalogYear}.${catalogNumber}/${page.fileName}.webp`}
+              src={`/images/${catalogYear}.${catalogNumber}/${p.fileName}.webp`}
               alt="Sample Toy Image"
               width={200}
               height={138}
-              className="w-full h-auto border-white border-4 shadow-2xl"
+              className={`w-full h-auto border-4 shadow-2xl" ${
+                p.fileName === page ? "border-amber-300" : "border-white"
+              }`}
             />
-            <Badge>{page.fileName}</Badge>
+            <Badge>{p.fileName}</Badge>
           </Link>
         ))}
       </div>

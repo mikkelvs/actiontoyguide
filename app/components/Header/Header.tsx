@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 
 import NavigationSelect from "@/app/components/NavigationSelect/NavigationSelect";
 import data from "@/app/data";
@@ -11,7 +11,9 @@ import NavigationButton from "../../components/NavigationButton/NavigationButton
 
 const Header = () => {
   const pathname = usePathname();
+  const params = useParams<{ id: string }>();
   const isHomePage = pathname === "/";
+  console.log(pathname);
 
   return (
     <header className="w-full mx-auto pb-12">
@@ -45,8 +47,8 @@ const Header = () => {
               key={index}
               src={`/images/${catalog.year}.${catalog.catalogNumber}/01.webp`}
               label={catalog.year}
-              version={catalog.id.split("-")[1]}
               href={`/${catalog.id}/01`}
+              active={params.id === catalog.id}
             />
           ))}
         </nav>
