@@ -33,14 +33,16 @@ const Page = async ({ params }: PageProps) => {
     <main className="w-full">
       <div className="flex flex-col lg:flex-row pb-8">
         <div className="w-full lg:w-8/12 lg:pr-8">
-          <Image
-            src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
-            alt="Sample Toy Image"
-            width={1600}
-            height={1100}
-            unoptimized
-            className="border-white border-8 lg:border-12 shadow-2xl"
-          />
+          <div className="border-white border-8 lg:border-12 shadow-2xl">
+            <Image
+              src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
+              alt="Sample Toy Image"
+              width={1600}
+              height={1100}
+              unoptimized
+              className="border-gray-700 border-2"
+            />
+          </div>
           <Pagination />
         </div>
         <div className="w-full lg:w-4/12">
@@ -71,16 +73,20 @@ const Page = async ({ params }: PageProps) => {
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 text-center">
         {catalog?.pages.map((p, index) => (
           <Link key={index} href={`/${id}/${p.fileName}`}>
-            <Image
-              key={index}
-              src={`/images/${catalogYear}.${catalogNumber}/${p.fileName}.webp`}
-              alt="Sample Toy Image"
-              width={200}
-              height={138}
-              className={`w-full h-auto border-4 shadow-2xl" ${
+            <div
+              className={`w-full h-auto border-8 shadow-2xl" ${
                 p.fileName === page ? "border-amber-300" : "border-white"
               }`}
-            />
+            >
+              <Image
+                key={index}
+                src={`/images/${catalogYear}.${catalogNumber}/${p.fileName}.webp`}
+                alt="Sample Toy Image"
+                width={200}
+                height={138}
+                className="border-gray-700 border-2"
+              />
+            </div>
             <Badge>{p.fileName}</Badge>
           </Link>
         ))}
