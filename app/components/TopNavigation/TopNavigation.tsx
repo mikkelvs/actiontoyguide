@@ -5,7 +5,7 @@ const TopNavigation = () => {
     <div className="w-full py-4 flex gap-4 md:gap-16 justify-end items-center text-white text-sm">
       <Link href="/">About</Link>
       <Link href="/">Kenner Products</Link>
-      <Link href="/" className="px-2 md:px-4 py-1 rounded-md">
+      <Link href="/" className="px-2 md:px-4 py-1 rounded-lg">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -27,7 +27,7 @@ const TopNavigation = () => {
         </svg>
         <span className="hidden md:inline-block">Instagram</span>
       </Link>
-      <Link href="/" className=" px-2 md:px-4 py-1 rounded-md bg-pink-400 ">
+      <Link href="/" className=" px-2 md:px-4 py-1 rounded-lg bg-pink-400 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

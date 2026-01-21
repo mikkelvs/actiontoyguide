@@ -14,17 +14,17 @@ const Pagination = () => {
   const currentPage = pageIndex + 1;
 
   return (
-    <div className="flex justify-between py-8">
+    <div className="flex justify-between py-8 items-center">
       <Link
         href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-        className={`inline-block px-4 py-1 mr-4 text-center text-white rounded-md font-bold w-36 bg-blue-500 border-2 ${
+        className={`inline-block py-1 mr-4 text-center text-white rounded-lg font-bold w-30 md:w-36 bg-blue-500 border-2 ${
           pageIndex > 0 ? "" : "pointer-events-none opacity-50"
         }`}
       >
         Previous
       </Link>
 
-      <div className="inline-block px-4">
+      <div className="inline-block">
         <span className="font-bold">{currentPage}</span> /{" "}
         {catalog?.pages.length}
       </div>
@@ -33,7 +33,7 @@ const Pagination = () => {
         href={`/${id}/${
           pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
         }`}
-        className={`inline-block px-4 py-1 ml-4 text-center text-white rounded-md font-bold w-36 bg-blue-500 border-2 ${
+        className={`inline-block py-1 ml-4 text-center text-white rounded-lg font-bold w-30 md:w-36 bg-blue-500 border-2 ${
           pageIndex < pages.length - 1 ? "" : "pointer-events-none opacity-50"
         }`}
       >

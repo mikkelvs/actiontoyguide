@@ -8,6 +8,30 @@ const _frontCover: ToyLine = {
     "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
 };
 
+const theDarkKnightCollection: ToyLine = {
+  id: "theDarkKnightCollection",
+  slug: "the-dark-knight",
+  name: "The Dark Knight Collection",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const beetlejuice: ToyLine = {
+  id: "beetlejuice",
+  slug: "beetlejuice",
+  name: "Beetlejuice",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const billAndTedsExcellentAdventure: ToyLine = {
+  id: "billAndTedsExcellentAdventure",
+  slug: "bill-and-ted",
+  name: "Bill & Ted's Excellent Adventure",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
 const blastJets: ToyLine = {
   id: "blastJets",
   slug: "blast-jets",
@@ -56,10 +80,34 @@ const policeAcademy: ToyLine = {
     "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
 };
 
+const ratFink: ToyLine = {
+  id: "ratFink",
+  slug: "rat-fink",
+  name: "Rat Fink",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const robinHood: ToyLine = {
+  id: "robinHood",
+  slug: "robin-hood",
+  name: "Robin Hood: Prince of Thieves",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
 const roboCopAndTheUltraPolice: ToyLine = {
   id: "roboCopAndTheUltraPolice",
   slug: "robocop",
   name: "RoboCop and the Ultra Police",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const shadowStrikers: ToyLine = {
+  id: "shadowStrikers",
+  slug: "shadow-strikers",
+  name: "Shadow Strikers",
   description:
     "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
 };
@@ -92,6 +140,22 @@ const startingLineup: ToyLine = {
   id: "startingLineup",
   slug: "starting-lineup",
   name: "Starting Lineup",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const swampThing: ToyLine = {
+  id: "swampThing",
+  slug: "swamp-thing",
+  name: "Swamp Thing",
+  description:
+    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+};
+
+const theClaw: ToyLine = {
+  id: "theClaw",
+  slug: "the-claw",
+  name: "The Claw",
   description:
     "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
 };
@@ -696,7 +760,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881242000",
-    id: "1990",
+    id: "1990-1",
     year: "1990",
     pages: [
       {
@@ -704,19 +768,496 @@ const data: Catalog[] = [
         toyLine: _frontCover,
         description: "",
       },
+      {
+        fileName: "02",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: ratFink,
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: ratFink,
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: megaForce,
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "25",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "26",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "27",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "28",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "29",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "30",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "31",
+        toyLine: policeAcademy,
+        description: "",
+      },
+      {
+        fileName: "32",
+        toyLine: policeAcademy,
+        description: "",
+      },
     ],
   },
   {
-    catalogNumber: "881242000",
-    id: "1990",
+    catalogNumber: "881242020",
+    id: "1990-2",
     year: "1990",
-    pages: [],
+    pages: [
+      {
+        fileName: "01",
+        toyLine: _frontCover,
+        description: "",
+      },
+      {
+        fileName: "02",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: ratFink,
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: ratFink,
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: roboCopAndTheUltraPolice,
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "25",
+        toyLine: shadowStrikers,
+        description: "",
+      },
+      {
+        fileName: "26",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "27",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "28",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "29",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "30",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "31",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "32",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+    ],
   },
   {
-    catalogNumber: "881242000",
-    id: "1990",
-    year: "1990",
-    pages: [],
+    catalogNumber: "881253000",
+    id: "1991",
+    year: "1991",
+    pages: [
+      {
+        fileName: "01",
+        toyLine: _frontCover,
+        description: "",
+      },
+      {
+        fileName: "02",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: theDarkKnightCollection,
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: robinHood,
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: robinHood,
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: robinHood,
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: swampThing,
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: swampThing,
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: swampThing,
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: swampThing,
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: startingLineup,
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: beetlejuice,
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: billAndTedsExcellentAdventure,
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: billAndTedsExcellentAdventure,
+        description: "",
+      },
+      {
+        fileName: "25",
+        toyLine: billAndTedsExcellentAdventure,
+        description: "",
+      },
+      {
+        fileName: "26",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "27",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "28",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "29",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "30",
+        toyLine: theRealGhostbusters,
+        description: "",
+      },
+      {
+        fileName: "31",
+        toyLine: theClaw,
+        description: "",
+      },
+      {
+        fileName: "32",
+        toyLine: theClaw,
+        description: "",
+      },
+    ],
   },
   {
     catalogNumber: "881242000",
