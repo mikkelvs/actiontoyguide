@@ -15,5 +15,7 @@ export type Catalog = {
   catalogNumber: string;
   id: string;
   year: string;
+  width: number;
+  height: number;
   pages: Page[];
 };

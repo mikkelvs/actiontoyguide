@@ -21,6 +21,8 @@ const Page = async ({ params }: PageProps) => {
 
   const catalog = data.find((c) => c.id === id);
   const pages = catalog?.pages ?? [];
+  const width = catalog?.width ?? 0;
+  const height = catalog?.height ?? 0;
 
   const pageIndex = pages.findIndex((p) => p.fileName === page);
 
@@ -37,8 +39,8 @@ const Page = async ({ params }: PageProps) => {
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
               alt="Sample Toy Image"
-              width={1280}
-              height={880}
+              width={width}
+              height={height}
               unoptimized={true}
               className="border-gray-700 border-2"
             />
@@ -77,8 +79,8 @@ const Page = async ({ params }: PageProps) => {
               key={index}
               src={`/images/${catalogYear}.${catalogNumber}/${p.fileName}.webp`}
               alt="Sample Toy Image"
-              width={192}
-              height={132}
+              width={width / 8}
+              height={height / 8}
               className={`w-full h-auto border-6 shadow-2xl" ${
                 p.fileName === page ? "border-amber-300" : "border-white"
               }`}

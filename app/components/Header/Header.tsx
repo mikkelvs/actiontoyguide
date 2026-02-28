@@ -49,6 +49,8 @@ const Header = () => {
               label={catalog.year}
               href={`/${catalog.id}/01`}
               active={params.id === catalog.id}
+              width={catalog.width}
+              height={catalog.height}
             />
           ))}
         </nav>
