@@ -39,7 +39,7 @@ const Page = async ({ params }: PageProps) => {
               alt="Sample Toy Image"
               width={1280}
               height={880}
-              unoptimized
+              unoptimized={true}
               className="border-gray-700 border-2"
             />
           </div>
