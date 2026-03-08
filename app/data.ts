@@ -2510,7 +2510,7 @@ const data: Catalog[] = [
     id: "1996",
     year: "1996",
     width: 1280,
-    height: 880,
+    height: 800,
     pages: [
       {
         fileName: "01",
