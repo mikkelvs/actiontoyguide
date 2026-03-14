@@ -5,8 +5,6 @@ import { useParams } from "next/navigation";
 
 import data from "@/app/data";
 
-import Badge from "../Badge/Badge";
-
 const Pagination = (): React.JSX.Element => {
   const { id, page } = useParams<{ id: string; page: string }>();
 
@@ -19,9 +17,9 @@ const Pagination = (): React.JSX.Element => {
     <div className="flex justify-between py-8 items-center">
       <Link
         href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-        className={` ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}
+        className={`w-30 md:w-36 min-w-12 inline-block px-4 py-1 text-center mt-4 text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}
       >
-        <Badge fixedWidth>Previous</Badge>
+        Previous
       </Link>
 
       <div className="inline-block">
@@ -33,11 +31,11 @@ const Pagination = (): React.JSX.Element => {
         href={`/${id}/${
           pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
         }`}
-        className={`${
+        className={`w-30 md:w-36 min-w-12 inline-block px-4 py-1 text-center mt-4 text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${
           pageIndex < pages.length - 1 ? "" : "pointer-events-none opacity-50"
         }`}
       >
-        <Badge fixedWidth>Next</Badge>
+        Next
       </Link>
     </div>
   );
