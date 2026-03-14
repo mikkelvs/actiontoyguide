@@ -9,7 +9,7 @@ import data from "@/app/data";
 
 import NavigationButton from "../../components/NavigationButton/NavigationButton";
 
-const Header = () => {
+const Header = (): React.JSX.Element => {
   const pathname = usePathname();
   const params = useParams<{ id: string }>();
   const isHomePage = pathname === "/";

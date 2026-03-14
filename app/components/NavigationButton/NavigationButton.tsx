@@ -19,8 +19,8 @@ const NavigationButton = ({
           alt="Image"
           width={width}
           height={height}
-          className={`border-4 hover:border-amber-300 ${
-            active ? "border-amber-300" : "border-white"
+          className={`border-4 hover:border-pink-500 ${
+            active ? "border-pink-500" : "border-white"
           }`}
         />
       </div>

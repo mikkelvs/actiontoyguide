@@ -7,7 +7,7 @@ import data from "@/app/data";
 
 import Badge from "../Badge/Badge";
 
-const Pagination = () => {
+const Pagination = (): React.JSX.Element => {
   const { id, page } = useParams<{ id: string; page: string }>();
 
   const catalog = data.find((c) => c.id === id);

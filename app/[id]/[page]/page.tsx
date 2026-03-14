@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { PageProps } from "@/app/[id]/[page]/page.types";
 import Badge from "@/app/components/Badge/Badge";
+import Gallery from "@/app/components/Gallery/Gallery";
 import InfoBox from "@/app/components/InfoBox/InfoBox";
 import Pagination from "@/app/components/Pagination/Pagination";
 import data from "@/app/data";
@@ -73,24 +74,15 @@ const Page = async ({ params }: PageProps) => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-8 text-center">
-        {catalog?.pages.map((p, index) => (
-          <Link key={index} href={`/${id}/${p.fileName}`}>
-            <Image
-              key={index}
-              src={`/images/${catalogYear}.${catalogNumber}/${p.fileName}.webp`}
-              alt="Sample Toy Image"
-              width={width / 8}
-              height={height / 8}
-              className={`w-full h-auto border-6 shadow-2xl" ${
-                p.fileName === page ? "border-amber-300" : "border-white"
-              }`}
-            />
-
-            <Badge>{p.fileName}</Badge>
-          </Link>
-        ))}
-      </div>
+      <Gallery
+        pages={pages}
+        catalogYear={catalogYear}
+        catalogNumber={catalogNumber}
+        width={width}
+        height={height}
+        id={id}
+        page={page}
+      />
     </main>
   );
 };
