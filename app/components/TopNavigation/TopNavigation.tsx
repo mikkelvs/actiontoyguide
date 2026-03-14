@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const TopNavigation = () => {
   return (
-    <div className="w-full py-4 flex gap-4 md:gap-16 justify-end items-center text-white text-sm">
+    <div className="w-full py-4 flex gap-4 md:gap-16 justify-between md:justify-end items-center text-white text-sm">
       <Link href="/">About</Link>
       <Link href="/">Kenner Products</Link>
       <Link href="/" className="px-2 md:px-4 py-1 rounded-lg">

@@ -39,7 +39,7 @@ const Header = () => {
           className={` ${
             isHomePage
               ? "hidden"
-              : "w-3/5 md:w-4/5 md:grid grid-cols-7 gap-4 md:gap-4 lg:items-center lg:justify-end hidden lg:flex"
+              : "w-3/5 md:w-4/5 md:grid grid-cols-7 gap-4 md:items-center md:gap-4 lg:flex lg:justify-end hidden"
           }`}
         >
           {data.map((catalog, index) => (

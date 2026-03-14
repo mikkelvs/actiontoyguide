@@ -21,7 +21,7 @@
 
 body {
   /* background: var(--background); */
-  background: linear-gradient(to bottom, black, oklch(71.4% 0.203 305.504));
+  background: linear-gradient(to bottom, black, oklch(28.3% 0.141 291.089));
   /* background: linear-gradient(
     rgba(0, 0, 0, 1) 0%,
     oklch(71.4% 0.203 305.504) 50%,

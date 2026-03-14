@@ -5,6 +5,8 @@ import { useParams } from "next/navigation";
 
 import data from "@/app/data";
 
+import Badge from "../Badge/Badge";
+
 const Pagination = () => {
   const { id, page } = useParams<{ id: string; page: string }>();
 
@@ -17,11 +19,9 @@ const Pagination = () => {
     <div className="flex justify-between py-8 items-center">
       <Link
         href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-        className={`inline-block py-1 mr-4 text-center text-white rounded-lg font-bold w-30 md:w-36 bg-blue-500 border-2 ${
-          pageIndex > 0 ? "" : "pointer-events-none opacity-50"
-        }`}
+        className={` ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}
       >
-        Previous
+        <Badge fixedWidth>Previous</Badge>
       </Link>
 
       <div className="inline-block">
@@ -33,11 +33,11 @@ const Pagination = () => {
         href={`/${id}/${
           pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
         }`}
-        className={`inline-block py-1 ml-4 text-center text-white rounded-lg font-bold w-30 md:w-36 bg-blue-500 border-2 ${
+        className={`${
           pageIndex < pages.length - 1 ? "" : "pointer-events-none opacity-50"
         }`}
       >
-        Next
+        <Badge fixedWidth>Next</Badge>
       </Link>
     </div>
   );

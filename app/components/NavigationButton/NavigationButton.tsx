@@ -12,19 +12,20 @@ const NavigationButton = ({
   height,
 }: NavigationButtonProps): React.JSX.Element => {
   return (
-    <Link href={href} className="text-center">
-      <Image
-        src={src}
-        alt="Image"
-        width={width / 10}
-        height={height / 10}
-        className={`hover:border-amber-300 border-2 shadow-md" ${
-          active ? "border-amber-300" : "border-white"
-        }`}
-      />
-      <div className="text-sm text-white rounded-md mt-2 text-center">
-        {label}
+    <Link href={href}>
+      <div className="w-full flex items-center justify-start md:w-full md:h-16 lg:h-10">
+        <Image
+          src={src}
+          alt="Image"
+          width={width}
+          height={height}
+          className={`border-4 hover:border-amber-300 ${
+            active ? "border-amber-300" : "border-white"
+          }`}
+        />
       </div>
+
+      <div className="text-sm text-white text-center font-bold">{label}</div>
     </Link>
   );
 };

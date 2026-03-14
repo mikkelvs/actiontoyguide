@@ -35,7 +35,7 @@ const Page = async ({ params }: PageProps) => {
     <main className="w-full">
       <div className="flex flex-col lg:flex-row pb-8">
         <div className="w-full lg:w-8/12 lg:pr-8">
-          <div className="border-white border-8 lg:border-12 shadow-2xl">
+          <div className="border-white border-8 lg:border-12">
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
               alt="Sample Toy Image"
