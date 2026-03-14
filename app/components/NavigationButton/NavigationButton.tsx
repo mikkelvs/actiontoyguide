@@ -25,7 +25,9 @@ const NavigationButton = ({
         />
       </div>
 
-      <div className="text-sm text-white text-center font-bold">{label}</div>
+      <div className="text-sm text-white text-center font-bold mt-1">
+        {label}
+      </div>
     </Link>
   );
 };

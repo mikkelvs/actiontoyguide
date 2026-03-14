@@ -7,7 +7,7 @@ export type ToyLine = {
 
 export type Page = {
   fileName: string;
-  toyLine: ToyLine;
+  toyLine: ToyLine[];
   description: string;
 };
 

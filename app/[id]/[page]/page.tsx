@@ -54,7 +54,8 @@ const Page = async ({ params }: PageProps) => {
             </h1>
 
             <h2 className="text-blue-400 uppercase font-bold text-lg">
-              {toyLine.name}
+              {toyLine[0].name}
+              {toyLine.length > 1 && ` / ${toyLine[1].name}`}
             </h2>
 
             <div className="flex flex-col md:flex-row-reverse lg:flex-col">
@@ -66,7 +67,7 @@ const Page = async ({ params }: PageProps) => {
               />
 
               <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
-                {toyLine.description}
+                {toyLine[0].description}
               </p>
             </div>
           </div>
