@@ -17,21 +17,21 @@ const Pagination = (): React.JSX.Element => {
     <div className="flex justify-between py-8 items-center">
       <Link
         href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
-        className={`w-30 md:w-36 min-w-12 inline-block px-4 py-1 text-center mt-4 text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}
+        className={`w-30 md:w-36 px-4 py-1 text-center text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}
       >
         Previous
       </Link>
 
-      <div className="inline-block">
-        <span className="font-bold">{currentPage}</span> /{" "}
-        {catalog?.pages.length}
+      <div>
+        <span className="font-bold">{currentPage}</span> /
+        {` ${catalog?.pages.length}`}
       </div>
 
       <Link
         href={`/${id}/${
           pages[Math.min(pages.length - 1, pageIndex + 1)]?.fileName
         }`}
-        className={`w-30 md:w-36 min-w-12 inline-block px-4 py-1 text-center mt-4 text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${
+        className={`w-30 md:w-36 px-4 py-1 text-center text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${
           pageIndex < pages.length - 1 ? "" : "pointer-events-none opacity-50"
         }`}
       >
