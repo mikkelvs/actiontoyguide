@@ -4,8 +4,7 @@ const _frontCover: ToyLine = {
   id: "frontCover",
   slug: "front-cover",
   name: "Front Cover",
-  description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+  description: "",
 };
 
 const actionMan: ToyLine = {
@@ -13,7 +12,7 @@ const actionMan: ToyLine = {
   slug: "action-man",
   name: "Action Man",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s 1990s Action Man line reintroduced the classic European adventure hero with modern styling and action-focused gear. Figures featured rugged outfits, mission equipment, and extreme adventure themes rather than traditional military realism. Vehicles and accessories expanded the play possibilities, presenting Action Man as a versatile hero for jungle missions, rescue operations, and high-tech adventures.",
 };
 
 const aliens: ToyLine = {
@@ -21,7 +20,7 @@ const aliens: ToyLine = {
   slug: "aliens",
   name: "Aliens",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Aliens line debuted in the early 1990s, adapting the dark science-fiction film franchise into a colorful action figure series for younger audiences. The toys featured Colonial Marines, imaginative Xenomorph creatures, and futuristic weapons. Bright colors and exaggerated designs distinguished the line, which became a cult favorite among collectors.",
 };
 
 const badBeast: ToyLine = {
@@ -29,7 +28,7 @@ const badBeast: ToyLine = {
   slug: "badBeast",
   name: "Bad Beast",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Bad Beast was a monster-themed Kenner concept featuring grotesque villains and mutated creatures. The figures emphasized exaggerated sculpts, dramatic colors, and mechanical action features such as snapping jaws or launching weapons. Although relatively obscure, the line reflects the bold creature designs and extreme aesthetics popular in 1990s toy development.",
 };
 
 const batmanAndRobin: ToyLine = {
@@ -37,7 +36,7 @@ const batmanAndRobin: ToyLine = {
   slug: "batman-and-robin",
   name: "Batman & Robin",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Released alongside the 1997 film, Kenner’s Batman & Robin toy line featured stylized versions of Batman, Robin, Batgirl, and the movie’s villains. Neon colors, armor variants, and gadget-filled accessories reflected the film’s flashy aesthetic. Vehicles and playsets expanded the range, continuing Kenner’s long-running series of Batman action figures.",
 };
 
 const batmanForever: ToyLine = {
@@ -45,7 +44,7 @@ const batmanForever: ToyLine = {
   slug: "batman-forever",
   name: "Batman Forever",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner produced the Batman Forever toy line in 1995 to support the theatrical release of the film. Figures included multiple versions of Batman and Robin as well as villains such as Two-Face and the Riddler. The toys featured imaginative armor variations, accessories, and vehicles typical of Kenner’s superhero lines.",
 };
 
 const batmanReturns: ToyLine = {
@@ -53,7 +52,7 @@ const batmanReturns: ToyLine = {
   slug: "batman-returns",
   name: "Batman Returns",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "The Batman Returns line debuted in 1992 following the Tim Burton film. Kenner produced action figures of Batman, Catwoman, and the Penguin along with several imaginative costume variations. Vehicles and themed playsets expanded the Gotham City setting, continuing the strong success of Kenner’s Batman toys from the late 1980s.",
 };
 
 const batmanTheAnimatedSeries: ToyLine = {
@@ -61,7 +60,7 @@ const batmanTheAnimatedSeries: ToyLine = {
   slug: "batman-the-animated-series",
   name: "Batman: The Animated Series",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Batman: The Animated Series toy line launched in 1992 based on the acclaimed animated television show. Figures reflected the show’s distinctive art style while retaining Kenner’s signature action features. A large cast of heroes and villains, along with vehicles and playsets, helped make it one of the era’s most successful superhero toy ranges.",
 };
 
 const beastWars: ToyLine = {
@@ -69,7 +68,7 @@ const beastWars: ToyLine = {
   slug: "beast-wars",
   name: "Beast Wars",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Beast Wars debuted in 1996 as a new direction for the Transformers brand. Kenner’s figures transformed between robots and animals such as gorillas, dinosaurs, and insects. The combination of mechanical and organic designs created a distinctive look. The toys were supported by a popular computer-animated television series.",
 };
 
 const beetlejuice: ToyLine = {
@@ -77,7 +76,7 @@ const beetlejuice: ToyLine = {
   slug: "beetlejuice",
   name: "Beetlejuice",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Beetlejuice toys were inspired primarily by the animated television series rather than the original film. Figures depicted the mischievous ghost in bizarre disguises and transformations. Bright colors, surreal designs, and playful accessories captured the show’s comedic tone, making the line one of Kenner’s most unusual releases.",
 };
 
 const billAndTedsExcellentAdventure: ToyLine = {
@@ -85,7 +84,7 @@ const billAndTedsExcellentAdventure: ToyLine = {
   slug: "bill-and-ted",
   name: "Bill & Ted's Excellent Adventure",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Based on the comedy film and animated series, Kenner’s Bill & Ted line featured the time-traveling duo along with historical characters encountered during their adventures. Figures included humorous accessories and playful features reflecting the lighthearted tone of the franchise. The toys celebrated the series’ mix of comedy, music, and history.",
 };
 
 const blastJets: ToyLine = {
@@ -93,7 +92,7 @@ const blastJets: ToyLine = {
   slug: "blast-jets",
   name: "Blast Jets",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Blast Jets was a Kenner vehicle toy concept centered on futuristic aircraft and fast-paced action play. The vehicles featured sleek designs, bright colors, and spring-powered launching mechanisms. Designed for imaginative aerial battles, the line emphasized speed and movement rather than character-driven storytelling.",
 };
 
 const boneAge: ToyLine = {
@@ -101,7 +100,7 @@ const boneAge: ToyLine = {
   slug: "bone-age",
   name: "Bone Age",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Bone Age presented a prehistoric fantasy world where primitive warriors battled dinosaurs and monstrous creatures. Kenner’s figures featured bone-styled armor, oversized weapons, and rugged sculpting. Action features and creature companions enhanced play value, blending elements of dinosaurs, fantasy, and adventure storytelling.",
 };
 
 const buildingBlasters: ToyLine = {
@@ -109,7 +108,7 @@ const buildingBlasters: ToyLine = {
   slug: "building-blasters",
   name: "Building Blasters",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Building Blasters combined construction toys with action play. Sets included modular parts that could be assembled into structures or bases along with projectile launchers and battle accessories. The concept encouraged creative building while still delivering the energetic action features associated with Kenner’s toy designs.",
 };
 
 const capitolCritters: ToyLine = {
@@ -117,7 +116,7 @@ const capitolCritters: ToyLine = {
   slug: "capitol-critters",
   name: "Capitol Critters",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Inspired by the animated television series, Capitol Critters featured anthropomorphic animal characters living in the White House. Kenner translated the cartoon’s rodent family and supporting characters into colorful figures with simple accessories. The toys reflected the show’s playful tone despite its short television run.",
 };
 
 const carzillas: ToyLine = {
@@ -125,7 +124,7 @@ const carzillas: ToyLine = {
   slug: "carzillas",
   name: "Carzillas",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Carzillas merged monster themes with imaginative vehicle design. Each car incorporated creature-like details such as claws, teeth, or scales. Many included launching mechanisms or transformation features. The concept encouraged kids to imagine races or battles between monstrous machines in a fantastical setting.",
 };
 
 const congo: ToyLine = {
@@ -133,7 +132,7 @@ const congo: ToyLine = {
   slug: "congo",
   name: "Congo",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Released in 1995, Kenner’s Congo line was based on the adventure film adapted from Michael Crichton’s novel. The toys featured explorers, jungle animals, and aggressive gorillas from the story. Vehicles and expedition gear allowed children to recreate jungle missions inspired by the film’s treasure-hunting narrative.",
 };
 
 const cyberStrykeGear: ToyLine = {
@@ -141,7 +140,7 @@ const cyberStrykeGear: ToyLine = {
   slug: "cyber-stryke-gear",
   name: "Cyber Stryke Gear",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Cyber Stryke Gear focused on futuristic role-play equipment such as stylized blasters and combat accessories. The toys often included lights, sounds, or projectile features. Designed to encourage imaginative sci-fi missions, the line reflected Kenner’s interest in interactive gear beyond traditional action figures.",
 };
 
 const dragonheart: ToyLine = {
@@ -149,7 +148,7 @@ const dragonheart: ToyLine = {
   slug: "dragonheart",
   name: "DragonHHeart",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Dragonheart toys accompanied the 1996 fantasy film about a heroic dragon and a medieval knight. The line included action figures, dragon creatures, and fantasy accessories inspired by the story. Large dragon toys and knightly weapons allowed children to imagine adventures in a medieval fantasy world.",
 };
 
 const gargoyles: ToyLine = {
@@ -157,7 +156,7 @@ const gargoyles: ToyLine = {
   slug: "gargoyles",
   name: "Gargoyles",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Based on the Disney animated series, Kenner’s Gargoyles line featured the heroic stone creatures that protected modern-day Manhattan. Figures often included wings, transformation elements, or battle accessories. The toys reflected the show’s mix of mythology, action, and gothic atmosphere.",
 };
 
 const giJoe: ToyLine = {
@@ -165,7 +164,7 @@ const giJoe: ToyLine = {
   slug: "gi-joe",
   name: "G.I. Joe",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "After acquiring the brand through Hasbro’s purchase of Kenner, the company continued producing G.I. Joe figures in the 1990s. These releases expanded the long-running military adventure concept with new characters, vehicles, and missions. The toys maintained the franchise’s focus on heroic teams battling villainous forces.",
 };
 
 const giJoeExtreme: ToyLine = {
@@ -173,7 +172,7 @@ const giJoeExtreme: ToyLine = {
   slug: "gi-joe-extreme",
   name: "G.I. Joe Extreme",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "G.I. Joe Extreme reimagined the classic military franchise with exaggerated designs and larger figures. Introduced in the mid-1990s, the line emphasized powerful villains, futuristic weapons, and stylized heroes. The toys were supported by an animated series and reflected the decade’s trend toward extreme action aesthetics.",
 };
 
 const jurassicPark: ToyLine = {
@@ -181,7 +180,7 @@ const jurassicPark: ToyLine = {
   slug: "jurassic-park",
   name: "Jurassic Park",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Jurassic Park line debuted in 1993 alongside the blockbuster film. The toys included dinosaur figures, human characters, and vehicles inspired by the island setting. Many dinosaurs featured electronic sounds or action features. The line became one of Kenner’s most successful movie-based toy ranges.",
 };
 
 const legendsOfBatman: ToyLine = {
@@ -189,7 +188,7 @@ const legendsOfBatman: ToyLine = {
   slug: "legends-of-batman",
   name: "Legends of Batman",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Legends of Batman explored imaginative interpretations of the Dark Knight through unusual costume designs and story themes. Rather than focusing on one film or show, the line presented alternate versions of Batman and his villains. Unique armor, accessories, and vehicles gave the series a creative comic-inspired style.",
 };
 
 const legendsOfTheDarkKnight: ToyLine = {
@@ -197,7 +196,7 @@ const legendsOfTheDarkKnight: ToyLine = {
   slug: "legends-of-the-dark-knight",
   name: "Legends of the Dark Knight",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Legends of the Dark Knight was another experimental Batman line featuring stylized interpretations of the character. Figures showcased dramatic armor designs, unusual gadgets, and themed battle gear. The line expanded Kenner’s Batman universe with imaginative versions of Gotham’s hero and villains.",
 };
 
 const magnaCrew: ToyLine = {
@@ -205,7 +204,7 @@ const magnaCrew: ToyLine = {
   slug: "magna-crew",
   name: "Magna Crew",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Magna Crew centered on construction vehicles equipped with magnetic tools and interchangeable parts. The toys allowed children to move metal objects or attach accessories using magnetic mechanisms. Designed as a mix of vehicle play and mechanical experimentation, the line encouraged hands-on interaction.",
 };
 
 const maskSplitSeconds: ToyLine = {
@@ -213,7 +212,7 @@ const maskSplitSeconds: ToyLine = {
   slug: "mask-split-seconds",
   name: "M.A.S.K. Split Seconds",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "M.A.S.K. Split Seconds expanded the original M.A.S.K. concept with racing themes and transforming vehicles. Drivers wore specialized masks that provided unique abilities, while their vehicles converted into battle machines. The toys combined racing action with the transformation gimmicks that defined the M.A.S.K. brand.",
 };
 
 const megaForce: ToyLine = {
@@ -221,7 +220,7 @@ const megaForce: ToyLine = {
   slug: "mega-force",
   name: "Mega Force",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Mega Force was a futuristic military toy line featuring advanced vehicles and heavily armed soldiers. The toys emphasized sleek aircraft, armored vehicles, and high-tech weaponry. Action features and bright colors reflected the dynamic style common in Kenner’s vehicle-focused toy concepts.",
 };
 
 const microVerse: ToyLine = {
@@ -229,7 +228,7 @@ const microVerse: ToyLine = {
   slug: "microverse",
   name: "MicroVerse",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "MicroVerse introduced miniature play environments populated by tiny figures and vehicles. The sets represented imaginative worlds and action scenarios scaled for compact play. The concept allowed children to build small scenes while still enjoying the adventurous themes associated with Kenner toys.",
 };
 
 const mortalKombat: ToyLine = {
@@ -237,7 +236,7 @@ const mortalKombat: ToyLine = {
   slug: "mortal-kombat",
   name: "Mortal Kombat",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner adapted the popular video game franchise Mortal Kombat into a toy line during the mid-1990s. Figures represented fighters from the games, often featuring stylized martial arts poses and accessories. The toys captured the competitive spirit of the series while adapting its themes for a younger audience.",
 };
 
 const nerf: ToyLine = {
@@ -245,7 +244,7 @@ const nerf: ToyLine = {
   slug: "nerf",
   name: "Nerf",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Originally introduced in the late 1960s, Nerf foam toys later became part of Kenner’s product lineup under Hasbro. The brand focused on safe indoor sports equipment and foam projectile blasters. Bright colors and soft materials made Nerf toys popular for active play in homes and backyards.",
 };
 
 const policeAcademy: ToyLine = {
@@ -253,7 +252,7 @@ const policeAcademy: ToyLine = {
   slug: "police-academy",
   name: "Police Academy",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Police Academy toy line was inspired by the comedy film series and animated show. The figures featured humorous versions of police recruits along with cartoonish villains. Vehicles, gadgets, and action features emphasized playful law-enforcement adventures rather than realistic police work.",
 };
 
 const predator: ToyLine = {
@@ -261,7 +260,7 @@ const predator: ToyLine = {
   slug: "predator",
   name: "Predator",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Predator line adapted the science-fiction film franchise into an action-focused toy range. The toys included stylized Predator hunters and human soldiers along with imaginative weaponry. Bright colors and exaggerated designs transformed the otherwise dark film concept into a child-friendly action series.",
 };
 
 const ratFink: ToyLine = {
@@ -269,7 +268,7 @@ const ratFink: ToyLine = {
   slug: "rat-fink",
   name: "Rat Fink",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Rat Fink toys were based on the famous hot-rod mascot created by artist Ed “Big Daddy” Roth. Kenner translated the grotesque cartoon rat into colorful figures and vehicles inspired by custom car culture. The toys celebrated exaggerated hot-rod aesthetics and underground automotive art.",
 };
 
 const ricochet: ToyLine = {
@@ -277,7 +276,7 @@ const ricochet: ToyLine = {
   slug: "ricochet",
   name: "Ricochet",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Ricochet was a Kenner toy concept focused on bouncing projectiles and fast-paced target play. The toys typically included launchers and durable balls designed to rebound off surfaces. The line emphasized skill-based play and energetic indoor action.",
 };
 
 const robinHood: ToyLine = {
@@ -285,7 +284,7 @@ const robinHood: ToyLine = {
   slug: "robin-hood",
   name: "Robin Hood: Prince of Thieves",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner produced the Robin Hood: Prince of Thieves line following the 1991 adventure film. Figures represented Robin Hood, his allies, and the Sheriff of Nottingham. Medieval weapons, horses, and accessories allowed children to recreate legendary forest battles inspired by the movie.",
 };
 
 const roboCopAndTheUltraPolice: ToyLine = {
@@ -293,7 +292,7 @@ const roboCopAndTheUltraPolice: ToyLine = {
   slug: "robocop",
   name: "RoboCop and the Ultra Police",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "RoboCop and the Ultra Police reimagined the science-fiction film hero within a colorful animated toy line. Kenner introduced new allies, villains, and futuristic equipment. Action features and imaginative gadgets expanded the RoboCop universe beyond the darker tone of the films.",
 };
 
 const savageMondoBlitzers: ToyLine = {
@@ -301,7 +300,7 @@ const savageMondoBlitzers: ToyLine = {
   slug: "savage-mondo-blitzers",
   name: "Savage Mondo Blitzers",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Savage Mondo Blitzers featured wild creature-like vehicles and warriors designed for chaotic battles. The toys emphasized exaggerated monster styling, large wheels, and projectile weapons. The concept blended monster themes with racing action typical of 1990s toy experimentation.",
 };
 
 const shadowStrikers: ToyLine = {
@@ -309,7 +308,7 @@ const shadowStrikers: ToyLine = {
   slug: "shadow-strikers",
   name: "Shadow Strikers",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Shadow Strikers focused on stealth-themed vehicles and futuristic racing action. The toys featured sleek designs, bright colors, and launching mechanisms. Drivers and vehicles were portrayed as part of a secretive racing league competing in high-speed futuristic contests.",
 };
 
 const shaqAttack: ToyLine = {
@@ -317,7 +316,7 @@ const shaqAttack: ToyLine = {
   slug: "shaq-attaq",
   name: "Shaq Attaq",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Shaq Attaq was a novelty toy line inspired by basketball superstar Shaquille O’Neal. The figures and accessories celebrated the athlete’s larger-than-life personality with exaggerated proportions and playful sports themes. The line blended sports fandom with collectible toy design.",
 };
 
 const silverhawks: ToyLine = {
@@ -325,7 +324,7 @@ const silverhawks: ToyLine = {
   slug: "silverhawks",
   name: "Silverhawks",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Silverhawks featured space-faring heroes with metallic armor and wings. Based on the animated series, Kenner’s figures represented the team battling villains across a futuristic galaxy. The toys combined science-fiction aesthetics with superhero action features.",
 };
 
 const skyball: ToyLine = {
@@ -333,7 +332,7 @@ const skyball: ToyLine = {
   slug: "skyball",
   name: "Skyball",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Skyball was a Kenner sports toy concept focused on throwing lightweight balls high into the air using specialized launchers. The toys emphasized outdoor activity and simple competitive games. Bright colors and durable materials made the line accessible for energetic play.",
 };
 
 const skyCommanders: ToyLine = {
@@ -341,7 +340,7 @@ const skyCommanders: ToyLine = {
   slug: "sky-commanders",
   name: "Sky Commanders",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Sky Commanders introduced a unique vertical play system where action figures traveled along string lines stretched across walls or rooms. The toys depicted soldiers battling in mountainous terrain using climbing equipment and futuristic weapons. The innovative system made the line distinctive among 1980s action toys.",
 };
 
 const ssp: ToyLine = {
@@ -349,7 +348,7 @@ const ssp: ToyLine = {
   slug: "ssp",
   name: "SSP Super Sonic Power",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "SSP Super Sonic Power featured vehicles powered by rip-cord launchers that allowed them to speed across floors at high velocity. Originally introduced earlier but revived in later decades, the toys emphasized simple mechanical action and fast racing play.",
 };
 
 const startingLineup: ToyLine = {
@@ -357,7 +356,7 @@ const startingLineup: ToyLine = {
   slug: "starting-lineup",
   name: "Starting Lineup",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Starting Lineup was Kenner’s highly successful sports figure line featuring professional athletes from major leagues. Each figure depicted a real player in uniform along with a trading card. The collectibles appealed to both toy fans and sports memorabilia collectors.",
 };
 
 const starWarsShadowsOfTheEmpire: ToyLine = {
@@ -365,7 +364,7 @@ const starWarsShadowsOfTheEmpire: ToyLine = {
   slug: "star-wars-shadows-of-the-empire",
   name: "Star Wars: Shadows of the Empire",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Shadows of the Empire was a multimedia Star Wars project in the 1990s supported by Kenner toys. The figures introduced new characters such as Dash Rendar while revisiting familiar heroes and villains. Vehicles and accessories expanded the Star Wars universe between the original films.",
 };
 
 const starWarsThePowerOfTheForce: ToyLine = {
@@ -373,7 +372,7 @@ const starWarsThePowerOfTheForce: ToyLine = {
   slug: "star-wars-the-power-of-the-force",
   name: "Star Wars: The Power of the Force",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "The Power of the Force relaunched Star Wars action figures in 1995 after years of absence. Kenner redesigned classic characters with modern sculpting and muscular proportions. The line revived interest in Star Wars toys ahead of the prequel trilogy.",
 };
 
 const superman: ToyLine = {
@@ -381,7 +380,7 @@ const superman: ToyLine = {
   slug: "superman",
   name: "Superman",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner’s Superman toy lines featured the iconic DC Comics hero alongside allies and villains from the comic universe. Figures included various costume versions and imaginative accessories. Vehicles and battle gear allowed children to stage adventures inspired by Metropolis and the wider DC universe.",
 };
 
 const swampThing: ToyLine = {
@@ -389,7 +388,7 @@ const swampThing: ToyLine = {
   slug: "swamp-thing",
   name: "Swamp Thing",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Swamp Thing toys were based on the animated television adaptation of the DC Comics character. The figures depicted plant-based heroes and villains battling in a swamp environment. Bright colors and exaggerated features made the line accessible for younger audiences.",
 };
 
 const technoZoids: ToyLine = {
@@ -397,7 +396,7 @@ const technoZoids: ToyLine = {
   slug: "techno-zoids",
   name: "Techno Zoids",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Techno Zoids combined robotic technology with animal designs. The mechanical creatures featured articulated parts and weapon accessories. The line reflected the popularity of robotic animal concepts during the late twentieth century toy market.",
 };
 
 const terminator2: ToyLine = {
@@ -405,7 +404,7 @@ const terminator2: ToyLine = {
   slug: "terminator-2",
   name: "Terminator 2",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner adapted Terminator 2: Judgment Day into a colorful action toy line featuring stylized versions of the film’s characters. Figures included Terminator heroes, villains, and futuristic weapons. Vehicles and imaginative accessories expanded the science-fiction setting for younger audiences.",
 };
 
 const theAdventuresOfbatmanAndRobin: ToyLine = {
@@ -413,7 +412,7 @@ const theAdventuresOfbatmanAndRobin: ToyLine = {
   slug: "the-adventures-of-batman-and-robin",
   name: "The Adventures of Batman and Robin",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "This line continued Kenner’s animated Batman toys following Batman: The Animated Series. Figures represented the updated designs seen in later seasons of the show. New villains, vehicles, and gadgets expanded the animated Gotham City toy universe.",
 };
 
 const theClaw: ToyLine = {
@@ -421,7 +420,7 @@ const theClaw: ToyLine = {
   slug: "the-claw",
   name: "The Claw",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "The Claw was a role-play toy featuring a mechanical grabbing device operated by a trigger handle. Designed for imaginative play, the toy allowed children to pick up objects at a distance. Its simple mechanical function made it a popular novelty toy.",
 };
 
 const theDarkKnightCollection: ToyLine = {
@@ -429,7 +428,7 @@ const theDarkKnightCollection: ToyLine = {
   slug: "the-dark-knight",
   name: "The Dark Knight Collection",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "The Dark Knight Collection followed the 1989 Batman film and expanded its toy universe with additional characters and costume variations. Kenner produced numerous Batman versions along with vehicles and playsets, building on the enormous success of the original movie toy line.",
 };
 
 const theLostWorld: ToyLine = {
@@ -437,7 +436,7 @@ const theLostWorld: ToyLine = {
   slug: "the-lost-world",
   name: "The Lost World: Jurassic Park",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner continued its dinosaur success with The Lost World: Jurassic Park toy line in 1997. The series introduced new dinosaur species, hunters, and expedition vehicles. Action features and electronic sounds made the creatures particularly engaging for imaginative play.",
 };
 
 const theMask: ToyLine = {
@@ -445,7 +444,7 @@ const theMask: ToyLine = {
   slug: "the-mask",
   name: "The Mask",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Inspired by the hit comedy film and animated series, The Mask toy line featured the zany green-faced hero in exaggerated poses and costumes. Accessories and comedic transformations reflected the character’s cartoon-like abilities and unpredictable humor.",
 };
 
 const theRealGhostbusters: ToyLine = {
@@ -453,7 +452,7 @@ const theRealGhostbusters: ToyLine = {
   slug: "ghostbusters",
   name: "The Real Ghostbusters",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "One of Kenner’s most famous lines, The Real Ghostbusters was based on the animated series inspired by the Ghostbusters films. The toys included the ghost-hunting team, bizarre ghosts, vehicles, and imaginative gadgets. The line became a defining toy series of the late 1980s.",
 };
 
 const theShadow: ToyLine = {
@@ -461,7 +460,7 @@ const theShadow: ToyLine = {
   slug: "the-shadow",
   name: "The Shadow",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner released The Shadow toys in 1994 alongside the film adaptation of the classic pulp hero. Figures represented the mysterious crime-fighter and his enemies. The toys emphasized dramatic costumes, weapons, and gadgets inspired by the film’s stylized world.",
 };
 
 const tonka: ToyLine = {
@@ -469,7 +468,7 @@ const tonka: ToyLine = {
   slug: "tonka",
   name: "Tonka",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Tonka construction vehicles became part of Kenner’s broader toy family under Hasbro. Known for their durability and realistic designs, Tonka trucks and machinery encouraged outdoor construction play and imaginative building projects.",
 };
 
 const totalJustice: ToyLine = {
@@ -477,7 +476,7 @@ const totalJustice: ToyLine = {
   slug: "total-justice",
   name: "Total Justice",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Total Justice introduced a bold redesign of DC Comics heroes in the mid-1990s. Kenner’s figures featured muscular proportions, bright colors, and futuristic armor. The line included characters such as Superman, Batman, and Wonder Woman along with themed vehicles.",
 };
 
 const transformers: ToyLine = {
@@ -485,7 +484,7 @@ const transformers: ToyLine = {
   slug: "transformers",
   name: "Transformers",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Transformers toys feature robots capable of converting into vehicles, weapons, or other objects. Kenner helped continue the franchise during the 1990s under Hasbro ownership. The line remained one of the most influential and enduring action figure brands in toy history.",
 };
 
 const vrTroopers: ToyLine = {
@@ -493,7 +492,7 @@ const vrTroopers: ToyLine = {
   slug: "vr-troopers",
   name: "VR Troopers",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "VR Troopers toys were based on the live-action television series featuring heroes who battled villains in a virtual reality dimension. Kenner’s figures included armored troopers, villains, and weapons inspired by the show’s science-fiction setting.",
 };
 
 const waterworld: ToyLine = {
@@ -501,7 +500,7 @@ const waterworld: ToyLine = {
   slug: "waterworld",
   name: "Waterworld",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Kenner released Waterworld toys alongside the 1995 science-fiction film. The figures depicted characters surviving on a flooded Earth using boats, weapons, and scavenged equipment. Aquatic vehicles and accessories helped recreate the film’s ocean-based world.",
 };
 
 const winnersCircle: ToyLine = {
@@ -509,7 +508,7 @@ const winnersCircle: ToyLine = {
   slug: "winners-circle",
   name: "Winner's Circle",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "Winner’s Circle featured collectible die-cast vehicles representing real race cars and drivers from major motorsports leagues. The toys appealed to racing fans and collectors, combining detailed vehicle models with sports memorabilia presentation.",
 };
 
 const xrc: ToyLine = {
@@ -517,7 +516,7 @@ const xrc: ToyLine = {
   slug: "xrc",
   name: "XRC",
   description:
-    "Kenner’s The Real Ghostbusters toy line translated the cartoon into colorful, slime-filled action figures and imaginative ghosts. Prioritizing playful creativity over screen accuracy, the range became iconic for its bold designs and stands as a hallmark of inventive 1980s toy design.",
+    "XRC focused on radio-controlled racing vehicles designed for speed and competitive play. The cars featured lightweight bodies and responsive controls. The line encouraged racing challenges and outdoor activity, blending traditional RC play with Kenner’s energetic toy design style.",
 };
 
 const data: Catalog[] = [
