@@ -1,8 +1,10 @@
+type InfoBoxLine = {
+  label: string;
+  value: string | number;
+};
+
 type InfoBoxProps = {
-  year: string;
-  number: string;
-  pages: number;
-  description: string;
+  lines: InfoBoxLine[];
 };
 
 export default InfoBoxProps;

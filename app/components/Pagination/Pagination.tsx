@@ -14,7 +14,7 @@ const Pagination = (): React.JSX.Element => {
   const currentPage = pageIndex + 1;
 
   return (
-    <div className="flex justify-between py-8 items-center">
+    <div className="flex justify-between pt-8 pb-8 lg:pb-0 items-center">
       <Link
         href={`/${id}/${pages[Math.max(0, pageIndex - 1)]?.fileName}`}
         className={`w-30 md:w-36 px-4 py-1 text-center text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200 ${pageIndex > 0 ? "" : "pointer-events-none opacity-50"}`}

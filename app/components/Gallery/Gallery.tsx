@@ -27,7 +27,6 @@ const Gallery = ({
               p.fileName === page ? "border-pink-500" : "border-white"
             }`}
           />
-
           <Badge>{p.fileName}</Badge>
         </Link>
       ))}

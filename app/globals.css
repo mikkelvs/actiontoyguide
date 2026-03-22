@@ -20,16 +20,15 @@
 }
 
 body {
-  /* background: var(--background); */
-  background: linear-gradient(to bottom, black, oklch(28.3% 0.141 291.089));
-  /* background: linear-gradient(
-    rgba(0, 0, 0, 1) 0%,
-    oklch(71.4% 0.203 305.504) 50%,
-    oklch(45.5% 0.188 13.697)
-  ); */
+  background: linear-gradient(
+      to bottom,
+      black,
+      oklch(38.6% 0.063 188.416),
+      oklch(28.3% 0.141 291.089)
+    )
+    no-repeat;
   color: var(--color-white);
   font-family: Arial, Helvetica, sans-serif;
-  /* @apply text-sm; */
 }
 
 a {
@@ -38,5 +37,19 @@ a {
 }
 
 a:hover {
-  color: var(--color-pu);
+  color: var(--color-purple);
 }
+
+h1 {
+  @apply text-3xl font-bold mb-2;
+}
+
+h2 {
+  @apply text-2xl font-bold mt-8 mb-2;
+}
+
+p {
+  @apply mb-8;
+}
+
+/* Layout */

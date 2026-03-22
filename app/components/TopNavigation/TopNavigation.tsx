@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const TopNavigation = (): React.JSX.Element => {
   return (
-    <div className="w-full py-4 flex gap-4 md:gap-16 justify-between md:justify-end items-center text-white text-sm">
+    <div className="w-full py-4 flex gap-4 md:gap-16 justify-between lg:justify-end items-center text-white text-sm">
       <Link href="/">About</Link>
-      <Link href="/">Kenner Products</Link>
+      <Link href="/history-of-kenner">History of Kenner</Link>
       <Link href="/" className="px-2 md:px-4 py-1 rounded-lg">
         <svg
           xmlns="http://www.w3.org/2000/svg"

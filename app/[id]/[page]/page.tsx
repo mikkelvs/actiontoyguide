@@ -6,6 +6,7 @@ import Badge from "@/app/components/Badge/Badge";
 import Gallery from "@/app/components/Gallery/Gallery";
 import InfoBox from "@/app/components/InfoBox/InfoBox";
 import Pagination from "@/app/components/Pagination/Pagination";
+import TwoColumnLayout from "@/app/components/TwoColumnLayout/TwoColumnLayout";
 import data from "@/app/data";
 
 export async function generateStaticParams() {
@@ -30,12 +31,37 @@ const Page = async ({ params }: PageProps) => {
   const catalogYear = catalog?.year ?? "";
   const catalogNumber = catalog?.catalogNumber ?? "";
 
+  const infoBoxLines = [
+    { label: "Year", value: catalogYear },
+    { label: "Catalog #", value: catalogNumber },
+    { label: "Pages", value: catalog?.pages.length || 0 },
+  ];
+
   const { toyLine, description } = pages[pageIndex] ?? {};
 
   return (
     <main className="w-full">
-      <div className="flex flex-col lg:flex-row pb-8">
-        <div className="w-full lg:w-8/12 lg:pr-8">
+      <TwoColumnLayout
+        sideBarContent={
+          <>
+            <h1>{catalogYear} Action Toy Guide</h1>
+
+            <h3 className="text-blue-400 uppercase font-bold text-lg">
+              {toyLine[0].name}
+              {toyLine.length > 1 && ` / ${toyLine[1].name}`}
+            </h3>
+
+            <div className="flex flex-col md:flex-row-reverse lg:flex-col">
+              <InfoBox lines={infoBoxLines} />
+
+              <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
+                {toyLine[0].description}
+              </p>
+            </div>
+          </>
+        }
+      >
+        <>
           <div className="border-white border-8 lg:border-12">
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
@@ -47,33 +73,9 @@ const Page = async ({ params }: PageProps) => {
             />
           </div>
           <Pagination />
-        </div>
-        <div className="w-full lg:w-4/12">
-          <div className="border-t-2 border-b-2 lg:border-0 lg:border-l-2 border-purple-300 text-white py-8 lg:py-0 lg:pl-8">
-            <h1 className="text-3xl font-bold mb-2">
-              {catalogYear} Action Toy Guide
-            </h1>
+        </>
+      </TwoColumnLayout>
 
-            <h2 className="text-blue-400 uppercase font-bold text-lg">
-              {toyLine[0].name}
-              {toyLine.length > 1 && ` / ${toyLine[1].name}`}
-            </h2>
-
-            <div className="flex flex-col md:flex-row-reverse lg:flex-col">
-              <InfoBox
-                year={catalogYear}
-                number={catalogNumber}
-                pages={catalog?.pages.length || 0}
-                description={description}
-              />
-
-              <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
-                {toyLine[0].description}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
       <Gallery
         pages={pages}
         catalogYear={catalogYear}
