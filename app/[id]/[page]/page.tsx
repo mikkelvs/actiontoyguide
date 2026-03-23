@@ -44,15 +44,15 @@ const Page = async ({ params }: PageProps) => {
       <TwoColumnLayout
         sideBarContent={
           <>
-            <h1>{catalogYear} Action Toy Guide</h1>
+            <h1 className="mb-2">{catalogYear} Action Toy Guide</h1>
 
-            <h3 className="text-blue-400 uppercase font-bold text-lg">
+            <h2>
               {toyLine[0].name}
               {toyLine.length > 1 && ` / ${toyLine[1].name}`}
-            </h3>
+            </h2>
 
-            <div className="flex flex-col md:flex-row-reverse lg:flex-col">
-              <InfoBox lines={infoBoxLines} />
+            <div className="flex flex-col md:flex-row-reverse md:items-start lg:flex-col">
+              <InfoBox lines={infoBoxLines} className="mt-8" />
 
               <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
                 {toyLine[0].description}

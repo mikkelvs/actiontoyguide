@@ -4,6 +4,7 @@ type InfoBoxLine = {
 };
 
 type InfoBoxProps = {
+  className?: string;
   lines: InfoBoxLine[];
 };
 

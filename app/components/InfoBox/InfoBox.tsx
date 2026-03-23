@@ -1,8 +1,10 @@
 import InfoBoxProps from "./InfoBox.types";
 
-const InfoBox = ({ lines }: InfoBoxProps): React.JSX.Element => {
+const InfoBox = ({ className, lines }: InfoBoxProps): React.JSX.Element => {
   return (
-    <dl className="w-full md:w-1/2 lg:w-full space-y-4 bg-white mt-8 p-4 rounded-md text-black text-sm border-amber-500 shadow-2xl">
+    <dl
+      className={`w-full md:w-1/2 lg:w-full space-y-4 bg-white p-4 rounded-md text-black text-sm border-amber-500 shadow-2xl ${className ? className : ""}`}
+    >
       {lines.map((line, index) => (
         <div
           key={index}

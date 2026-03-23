@@ -9,13 +9,21 @@ const Page = () => (
   <main className="w-full">
     <TwoColumnLayout
       sideBarContent={
-        <InfoBox
-          lines={[
-            { label: "Name", value: "Kenner Toys" },
-            { label: "Founded", value: "1947" },
-            { label: "Pages", value: "12" },
-          ]}
-        />
+        <div className="flex flex-col md:flex-row-reverse md:items-start lg:flex-col">
+          <InfoBox
+            lines={[
+              { label: "Name", value: "Kenner Toys" },
+              { label: "Founded", value: "1947" },
+              { label: "Pages", value: "12" },
+            ]}
+          />
+          <p className="w-full md:w-1/2 lg:w-full mt-8 md:mt-0 lg:mt-8 md:mr-8 italic">
+            Kenner Products was a toy company founded in 1947 in Cincinnati,
+            Ohio. It became famous for producing the original Star Wars action
+            figures and many other popular toy lines throughout the 20th
+            century.
+          </p>
+        </div>
       }
     >
       <h1>History of Kenner Toys</h1>
