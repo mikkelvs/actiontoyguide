@@ -39,6 +39,14 @@ const batmanAndRobin: ToyLine = {
     "Released alongside the 1997 film, Kenner’s Batman & Robin toy line featured stylized versions of Batman, Robin, Batgirl, and the movie’s villains. Neon colors, armor variants, and gadget-filled accessories reflected the film’s flashy aesthetic. Vehicles and playsets expanded the range, continuing Kenner’s long-running series of Batman action figures.",
 };
 
+const batmanAndRobinDuoForce: ToyLine = {
+  id: "batmanAndRobinDuoForce",
+  slug: "batman-and-robin-duo-force",
+  name: "Batman & Robin: Duo Force",
+  description:
+    "Duo Force was a subline of the Batman & Robin toy series that focused on pairs of characters with complementary designs and accessories. Each duo featured Batman and Robin in matching armor or themed costumes along with coordinated gadgets. The concept emphasized teamwork and visual unity between the two heroes.",
+};
+
 const batmanForever: ToyLine = {
   id: "batmanForever",
   slug: "batman-forever",
@@ -373,6 +381,14 @@ const starWarsThePowerOfTheForce: ToyLine = {
   name: "Star Wars: The Power of the Force",
   description:
     "The Power of the Force relaunched Star Wars action figures in 1995 after years of absence. Kenner redesigned classic characters with modern sculpting and muscular proportions. The line revived interest in Star Wars toys ahead of the prequel trilogy.",
+};
+
+const steel: ToyLine = {
+  id: "steel",
+  slug: "steel",
+  name: "Steel",
+  description:
+    "Kenner’s Steel toy line was based on the 1997 superhero film starring Shaquille O’Neal. The figures featured the armored hero along with villains and supporting characters. Accessories and vehicles reflected the film’s blend of action and technology themes.",
 };
 
 const superman: ToyLine = {
@@ -2722,12 +2738,12 @@ const data: Catalog[] = [
       },
       {
         fileName: "04",
-        toyLine: [totalJustice],
+        toyLine: [totalJustice, batmanAndRobinDuoForce],
         description: "",
       },
       {
         fileName: "05",
-        toyLine: [superman],
+        toyLine: [superman, steel],
         description: "",
       },
       {

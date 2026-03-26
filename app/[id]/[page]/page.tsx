@@ -46,15 +46,17 @@ const Page = async ({ params }: PageProps) => {
           <>
             <h1 className="mb-2">{catalogYear} Action Toy Guide</h1>
 
-            <h2>
+            <h2 className="mb-8">
               {toyLine[0].name}
               {toyLine.length > 1 && ` / ${toyLine[1].name}`}
             </h2>
 
             <div className="flex flex-col md:flex-row-reverse md:items-start lg:flex-col">
-              <InfoBox lines={infoBoxLines} className="mt-8" />
+              <div className="w-full md:w-1/2 lg:w-full pb-8">
+                <InfoBox lines={infoBoxLines} />
+              </div>
 
-              <p className="w-full md:w-1/2 lg:w-full mt-8 md:mr-8">
+              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0">
                 {toyLine[0].description}
               </p>
             </div>
