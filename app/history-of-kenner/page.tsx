@@ -54,7 +54,7 @@ const Page = () => (
         following decade.
       </p>
     </div>
-    <TwoColumnLayout
+    {/* <TwoColumnLayout
       sideBarContent={
         <div className="flex flex-col md:flex-row-reverse md:items-start lg:flex-col">
           <InfoBox
@@ -111,7 +111,7 @@ const Page = () => (
         the company’s ability to secure major entertainment licenses in the
         following decade.
       </p>
-    </TwoColumnLayout>
+    </TwoColumnLayout> */}
   </main>
 );
 
