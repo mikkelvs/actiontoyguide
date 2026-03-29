@@ -1,8 +1,11 @@
 import Link from "next/link";
 
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
+
 const TopNavigation = (): React.JSX.Element => {
   return (
     <div className="w-full py-4 flex gap-4 md:gap-16 justify-between lg:justify-end items-center text-white text-sm">
+      <ThemeToggle />
       <Link href="/">About</Link>
       <Link href="/history-of-kenner">History of Kenner</Link>
       <Link href="/" className="px-2 md:px-4 py-1 rounded-lg">

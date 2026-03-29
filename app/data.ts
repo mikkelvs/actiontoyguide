@@ -432,11 +432,11 @@ const theAdventuresOfbatmanAndRobin: ToyLine = {
 };
 
 const theClaw: ToyLine = {
-  id: "theClaw",
+  id: "theClawC",
   slug: "the-claw",
   name: "The Claw",
   description:
-    "The Claw was a role-play toy featuring a mechanical grabbing device operated by a trigger handle. Designed for imaginative play, the toy allowed children to pick up objects at a distance. Its simple mechanical function made it a popular novelty toy.",
+    "The Claw was a unique Kenner vehicle built around a transforming attack gimmick rather than traditional play features. At first glance, it appeared to be a rugged, stylized vehicle, but its defining function was activated when the wheels split open to reveal rows of jagged teeth. This unexpected transformation turned the vehicle into a snapping, creature-like machine.",
 };
 
 const theDarkKnightCollection: ToyLine = {
