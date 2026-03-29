@@ -30,7 +30,10 @@ const TopNavigation = (): React.JSX.Element => {
         </svg>
         <span className="hidden md:inline-block">Instagram</span>
       </Link>
-      <Link href="/" className=" px-2 md:px-4 py-1 rounded-lg bg-pink-500">
+      <Link
+        href="/"
+        className=" px-2 md:px-4 py-1 rounded-lg bg-pink-500 text-white"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -45,7 +48,7 @@ const TopNavigation = (): React.JSX.Element => {
             d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
           />
         </svg>
-        <span className="hidden md:inline-block">Get In Touch</span>
+        <span className="hidden md:inline-block text-white">Get In Touch</span>
       </Link>
     </div>
   );

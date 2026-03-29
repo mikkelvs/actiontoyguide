@@ -2,6 +2,7 @@ import "./globals.css";
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 
 import Header from "./components/Header/Header";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
@@ -29,6 +30,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <Script
+          id="theme-script"
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.toggle('dark', localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches));`,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -36,7 +45,7 @@ export default function RootLayout({
           <TopNavigation />
           <Header />
           {children}
-          <footer className="w-full p-8 text-center">
+          <footer className="text-black dark:text-white w-full p-8 text-center">
             Not endorsed by Hasbro or Kenner. Informational purposes only.
           </footer>
         </div>

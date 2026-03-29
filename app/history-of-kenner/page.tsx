@@ -18,7 +18,7 @@ const Page = () => (
           alt="Kenner Cardback"
           className="float-right ml-4 mb-4 border-8 border-white"
         />
-        The story of Kenner Products is one of the most influential chapters in
+        The story of Kenner Products is one of the most influential chapters in1
         the history of the modern toy industry. From modest beginnings in the
         1940s to its transformation into the powerhouse behind some of the most
         iconic action figures ever produced, Kenner played a decisive role in

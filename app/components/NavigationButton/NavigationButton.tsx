@@ -20,12 +20,12 @@ const NavigationButton = ({
           width={width}
           height={height}
           className={`border-4 hover:border-pink-500 ${
-            active ? "border-pink-500" : "border-white"
+            active ? " border-pink-500" : "border-black dark:border-white"
           }`}
         />
       </div>
 
-      <div className="text-sm text-white text-center font-bold mt-1">
+      <div className="text-sm text-black dark:text-white text-center font-bold mt-1">
         {label}
       </div>
     </Link>

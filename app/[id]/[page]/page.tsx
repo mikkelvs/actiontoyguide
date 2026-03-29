@@ -44,7 +44,9 @@ const Page = async ({ params }: PageProps) => {
       <TwoColumnLayout
         sideBarContent={
           <>
-            <h1 className="mb-2">{catalogYear} Action Toy Guide</h1>
+            <h1 className="mb-2 text-purple-900 dark:text-purple-300">
+              {catalogYear} Action Toy Guide
+            </h1>
 
             <h2 className="mb-8">
               {toyLine[0].name}
@@ -56,7 +58,7 @@ const Page = async ({ params }: PageProps) => {
                 <InfoBox lines={infoBoxLines} />
               </div>
 
-              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0">
+              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0 text-black dark:text-white">
                 {toyLine[0].description}
               </p>
             </div>
@@ -64,7 +66,7 @@ const Page = async ({ params }: PageProps) => {
         }
       >
         <>
-          <div className="border-white border-8 lg:border-12">
+          <div className="border-purple-900 dark:border-white border-8 lg:border-12">
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
               alt="Sample Toy Image"
