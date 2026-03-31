@@ -19,7 +19,7 @@ const Page = () => (
             src={`/images/${catalog.year}.${catalog.catalogNumber}/01.webp`}
             width={catalog.width / 5}
             height={catalog.height / 5}
-            className="w-full h-auto border-gray-900 dark:border-white border-4 shadow-md/50"
+            className="w-full h-auto border-white border-4"
           />
         </div>
         <Badge>{catalog.year}</Badge>
