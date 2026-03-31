@@ -49,8 +49,8 @@ const Header = (): React.JSX.Element => {
               label={catalog.year}
               href={`/${catalog.id}/01`}
               active={params.id === catalog.id}
-              width={catalog.width}
-              height={catalog.height}
+              width={catalog.width / 10}
+              height={catalog.height / 10}
             />
           ))}
         </nav>

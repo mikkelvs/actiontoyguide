@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { PageProps } from "@/app/[id]/[page]/page.types";
-import Badge from "@/app/components/Badge/Badge";
 import Gallery from "@/app/components/Gallery/Gallery";
 import InfoBox from "@/app/components/InfoBox/InfoBox";
 import Pagination from "@/app/components/Pagination/Pagination";
@@ -37,18 +36,18 @@ const Page = async ({ params }: PageProps) => {
     { label: "Pages", value: catalog?.pages.length || 0 },
   ];
 
-  const { toyLine, description } = pages[pageIndex] ?? {};
+  const { toyLine } = pages[pageIndex] ?? {};
 
   return (
     <main className="w-full">
       <TwoColumnLayout
         sideBarContent={
           <>
-            <h1 className="mb-2 text-purple-900 dark:text-purple-300">
+            <h1 className="mb-2 text-purple-300">
               {catalogYear} Action Toy Guide
             </h1>
 
-            <h2 className="mb-8">
+            <h2 className="mt-0 mb-8">
               {toyLine[0].name}
               {toyLine.length > 1 && ` / ${toyLine[1].name}`}
             </h2>
@@ -58,7 +57,7 @@ const Page = async ({ params }: PageProps) => {
                 <InfoBox lines={infoBoxLines} />
               </div>
 
-              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0 text-black dark:text-white">
+              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0">
                 {toyLine[0].description}
               </p>
             </div>
@@ -66,7 +65,7 @@ const Page = async ({ params }: PageProps) => {
         }
       >
         <>
-          <div className="border-purple-900 dark:border-white border-8 lg:border-12">
+          <div className="border-white border-8 lg:border-12">
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
               alt="Sample Toy Image"

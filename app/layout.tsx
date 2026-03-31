@@ -29,15 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <head>
-        <Script
-          id="theme-script"
-          dangerouslySetInnerHTML={{
-            __html: `document.documentElement.classList.toggle('dark', localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches));`,
-          }}
-        />
-      </head>
+    <html lang="en" suppressHydrationWarning>
+      <head></head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -45,7 +38,7 @@ export default function RootLayout({
           <TopNavigation />
           <Header />
           {children}
-          <footer className="text-black dark:text-white w-full p-8 text-center">
+          <footer className="text-white w-full p-8 text-center italic">
             Not endorsed by Hasbro or Kenner. Informational purposes only.
           </footer>
         </div>

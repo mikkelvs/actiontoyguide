@@ -24,9 +24,7 @@ const Gallery = ({
             width={width / 8}
             height={height / 8}
             className={`w-full h-auto border-solid border-4 inline-block hover:border-pink-500" ${
-              p.fileName === page
-                ? "border-pink-500"
-                : "border-gray-500 dark:border-white"
+              p.fileName === page ? "border-pink-500" : "border-white"
             }`}
           />
           <Badge>{p.fileName}</Badge>

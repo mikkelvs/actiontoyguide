@@ -2,7 +2,7 @@
 
 :root {
   --background: #3c0366;
-  --foreground: #171717;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -21,20 +21,10 @@
 
 @layer base {
   body {
-    background: linear-gradient(to bottom, oklch(92.8% 0.006 264.531), white);
-    background-repeat: no-repeat;
-    color: var(--color-black);
-    font-family: Arial, Helvetica, sans-serif;
-    @apply bg-background text-foreground;
-  }
-
-  .dark body {
-    background: linear-gradient(
-      to bottom,
-      oklch(28.3% 0.141 291.089),
-      oklch(89.4% 0.057 293.283)
-    );
+    background: linear-gradient(to bottom, black, oklch(40.8% 0.153 2.432));
     color: var(--color-white);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   a {
@@ -51,12 +41,17 @@
   }
 
   h2 {
-    @apply text-lg font-bold text-blue-400 uppercase mb-2;
+    @apply text-lg font-bold text-blue-400 uppercase mt-8 mb-2;
   }
 
   p {
     @apply mb-4;
+    color: var(--color-white);
   }
+}
+
+.badge {
+  @apply inline-block px-4 py-1 text-center text-white rounded-lg font-bold bg-blue-500 hover:bg-blue-700 border-2 hover:border-blue-200;
 }
 
 /* Layout */
