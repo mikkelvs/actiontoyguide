@@ -68,19 +68,14 @@ const ContactForm = (): React.JSX.Element => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4 max-w-md">
-      <input
-        name="name"
-        placeholder="Your name"
-        required
-        className="w-full border p-2"
-      />
+      <input name="name" placeholder="Your name" required className="input" />
 
       <input
         name="email"
         type="email"
         placeholder="Your email"
         required
-        className="w-full border p-2"
+        className="input"
       />
 
       <textarea
@@ -88,7 +83,7 @@ const ContactForm = (): React.JSX.Element => {
         placeholder="Your message"
         required
         minLength={10}
-        className="w-full border p-2"
+        className="input h-32"
       />
 
       {/* Honeypot (hidden from humans) */}
@@ -99,7 +94,7 @@ const ContactForm = (): React.JSX.Element => {
         autoComplete="off"
       />
 
-      <button type="submit" disabled={loading} className="px-4 py-2 border">
+      <button type="submit" disabled={loading} className="badge cursor-pointer">
         {loading ? "Sending..." : "Send"}
       </button>
 
