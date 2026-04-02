@@ -32,6 +32,7 @@ const Header = (): React.JSX.Element => {
               width={isHomePage ? 300 : 150}
               height={isHomePage ? 228 : 114}
               unoptimized={true}
+              loading="eager"
             />
           </Link>
         </div>
