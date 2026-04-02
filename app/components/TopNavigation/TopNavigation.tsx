@@ -6,7 +6,11 @@ const TopNavigation = (): React.JSX.Element => {
       <div className="w-full md:w-4/5 py-4 flex gap-4 md:gap-16 justify-between lg:justify-end items-center text-white text-sm">
         <Link href="/about">About</Link>
         <Link href="/history-of-kenner">History of Kenner</Link>
-        <Link href="/contact" className="px-2 md:px-4 py-1 rounded-lg">
+        <Link
+          href="https://www.instagram.com/mikkels.vintage.toys"
+          className="px-2 md:px-4 py-1 rounded-lg"
+          target="_blank"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

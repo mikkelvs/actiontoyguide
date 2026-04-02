@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import ImageFigure from "../components/ImageFigure/ImageFigure";
 import OneColumnLayout from "../components/OneColumnLayout/OneColumnLayout";
 
 const Page = () => (
@@ -7,13 +8,6 @@ const Page = () => (
     <h1>History of Kenner Toys</h1>
 
     <p>
-      <Image
-        src="/cardback.webp"
-        width={200}
-        height={284}
-        alt="Kenner Cardback"
-        className="float-right ml-4 mb-4 border-8 border-white"
-      />
       <strong>Kenner Products</strong> occupies a special place in toy history,
       not just as a successful manufacturer, but as a company that fundamentally
       reshaped the action figure market during its peak years from the late
@@ -22,6 +16,14 @@ const Page = () => (
       era” that the company defined modern action figure collecting, licensing
       strategies, and play patterns that still influence the industry today.
     </p>
+
+    <ImageFigure
+      src="/1990-36.webp"
+      alt="Kenner Cardback"
+      width={300}
+      height={285}
+      caption="Unproduced Vandal-1 Vehicle from RoboCop and the Ultra Police"
+    />
 
     <h2>Early Years and Foundations</h2>
     <p>
@@ -43,6 +45,7 @@ const Page = () => (
     </p>
 
     <h2>The Star Wars Revolution (Late 1970s–Early 1980s)</h2>
+
     <p>
       The most important moment in Kenner’s history came in 1977, when it
       secured the master toy license for <em>Star Wars</em>, directed by George
@@ -50,6 +53,14 @@ const Page = () => (
       companies passed on the license. Kenner, however, took the risk—and
       changed the toy industry forever.
     </p>
+
+    <ImageFigure
+      src="/cardback.webp"
+      alt="Kenner Cardback"
+      width={200}
+      height={284}
+      caption="Selection of ESB figurs from the Princess Leia Bespin cardback"
+    />
 
     <p>
       When <em>Star Wars</em> became a cultural phenomenon, Kenner was initially
@@ -73,7 +84,7 @@ const Page = () => (
     <p>
       Kenner’s <em>Star Wars</em> line established several enduring principles:
     </p>
-    <ul>
+    <ul className="list-disc list-inside mb-4">
       <li>Character-driven collecting</li>
       <li>Cross-compatible scales</li>
       <li>World-building through vehicles and environments</li>
@@ -91,6 +102,15 @@ const Page = () => (
       other licenses and original concepts. Not all matched the same success,
       but several became important in their own right.
     </p>
+
+    <ImageFigure
+      src="/1990-94.webp"
+      alt="Kenner Cardback"
+      width={300}
+      height={383}
+      caption="Page from the 1990 Kenner Toy Fair catalog, featuring The Real Ghostbusters Power Pack Heroes assortment"
+      align="left"
+    />
 
     <p>
       One notable line was <em>The Six Million Dollar Man</em>, which predated{" "}
