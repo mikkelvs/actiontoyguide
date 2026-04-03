@@ -14,8 +14,7 @@ const ImageFigure = ({
 
   return (
     <figure
-      style={{ width }}
-      className={`float-${align} mt-2 mb-4 ${leftAligned ? "mr-4" : "ml-4"} border-8 lg:border-12 border-white bg-white inline-block`}
+      className={`float-${align} w-1/2 md:w-2/5 mt-2 mb-4 ${leftAligned ? "mr-4" : "ml-4"} border-8 lg:border-12 border-white bg-white inline-block`}
     >
       <div className="w-full">
         <Image

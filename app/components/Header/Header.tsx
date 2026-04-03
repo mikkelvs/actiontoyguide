@@ -21,7 +21,7 @@ const Header = (): React.JSX.Element => {
         <div
           className={` ${
             isHomePage
-              ? "w-full justify-center flex p-8"
+              ? "w-full justify-center flex mt-8"
               : "flex w-2/5 md:w-1/5 justify-start pr-4 md:pr-8"
           }`}
         >

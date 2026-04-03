@@ -43,9 +43,7 @@ const Page = async ({ params }: PageProps) => {
       <TwoColumnLayout
         sideBarContent={
           <>
-            <h1 className="mb-2 text-purple-300">
-              {catalogYear} Action Toy Guide
-            </h1>
+            <h1 className="mb-2 ">{catalogYear} Action Toy Guide</h1>
 
             <h2 className="mt-0 mb-8">
               {toyLine[0].name}

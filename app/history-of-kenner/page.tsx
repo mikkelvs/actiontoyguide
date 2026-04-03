@@ -17,15 +17,8 @@ const Page = () => (
       strategies, and play patterns that still influence the industry today.
     </p>
 
-    <ImageFigure
-      src="/1990-36.webp"
-      alt="Kenner Cardback"
-      width={300}
-      height={285}
-      caption="Unproduced Vandal-1 Vehicle from RoboCop and the Ultra Police"
-    />
-
     <h2>Early Years and Foundations</h2>
+
     <p>
       Kenner was founded by brothers Albert, Philip, and Joseph Steiner,
       initially focusing on simple, inventive toys and games. Through the 1950s
@@ -46,6 +39,14 @@ const Page = () => (
 
     <h2>The Star Wars Revolution (Late 1970s–Early 1980s)</h2>
 
+    <ImageFigure
+      src="/cardback.webp"
+      alt="Kenner Cardback"
+      width={200}
+      height={284}
+      caption="Selection of ESB figures from the Princess Leia Bespin cardback"
+    />
+
     <p>
       The most important moment in Kenner’s history came in 1977, when it
       secured the master toy license for <em>Star Wars</em>, directed by George
@@ -53,14 +54,6 @@ const Page = () => (
       companies passed on the license. Kenner, however, took the risk—and
       changed the toy industry forever.
     </p>
-
-    <ImageFigure
-      src="/cardback.webp"
-      alt="Kenner Cardback"
-      width={200}
-      height={284}
-      caption="Selection of ESB figurs from the Princess Leia Bespin cardback"
-    />
 
     <p>
       When <em>Star Wars</em> became a cultural phenomenon, Kenner was initially
@@ -103,15 +96,6 @@ const Page = () => (
       but several became important in their own right.
     </p>
 
-    <ImageFigure
-      src="/1990-94.webp"
-      alt="Kenner Cardback"
-      width={300}
-      height={383}
-      caption="Page from the 1990 Kenner Toy Fair catalog, featuring The Real Ghostbusters Power Pack Heroes assortment"
-      align="left"
-    />
-
     <p>
       One notable line was <em>The Six Million Dollar Man</em>, which predated{" "}
       <em>Star Wars</em> but helped establish Kenner’s credibility in action
@@ -127,6 +111,15 @@ const Page = () => (
       particular became a major success, blending animated designs with
       inventive play features like “fright” mechanisms and ghost-catching gear.
     </p>
+
+    <ImageFigure
+      src="/1990-94.webp"
+      alt="1990 Kenner Toy Fair Catalog Page"
+      width={300}
+      height={383}
+      caption="Page from the 1990 Kenner Toy Fair catalog, featuring The Real Ghostbusters Power Pack Heroes assortment"
+      align="left"
+    />
 
     <p>
       Another key release was the <em>Super Powers Collection</em>, based on DC
@@ -180,14 +173,24 @@ const Page = () => (
     </p>
 
     <h2>Design Philosophy and Innovation</h2>
+
     <p>
       Across its golden years, Kenner distinguished itself through a few
       consistent innovations:
     </p>
+
+    <ImageFigure
+      src="/1990-36.webp"
+      alt="Kenner Cardback"
+      width={300}
+      height={285}
+      caption="Unproduced Vandal-1 Vehicle from RoboCop and the Ultra Police"
+    />
+
     <ul>
       <li>
-        <strong>Scale Standardization:</strong> The 3.75-inch format allowed for
-        expansive ecosystems of toys.
+        <strong>Scale Standardization:</strong> The 3.75-inch and other formats
+        allowed for expansive ecosystems of toys.
       </li>
       <li>
         <strong>Play Features:</strong> Action gimmicks—spring-loaded punches,
