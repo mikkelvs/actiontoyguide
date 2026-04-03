@@ -1,8 +1,8 @@
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 
 import Header from "./components/Header/Header";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
@@ -38,6 +38,7 @@ export default function RootLayout({
           <TopNavigation />
           <Header />
           {children}
+          <Analytics />
           <footer className="text-white w-full p-8 text-center italic">
             Not endorsed by Hasbro or Kenner. Informational purposes only.
           </footer>
