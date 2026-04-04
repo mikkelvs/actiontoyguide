@@ -55,9 +55,11 @@ const Page = async ({ params }: PageProps) => {
                 <InfoBox lines={infoBoxLines} />
               </div>
 
-              <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0">
-                {toyLine[0].description}
-              </p>
+              {toyLine[0].description && (
+                <p className="w-full md:w-1/2 lg:w-full md:mr-8 mb-8 lg:mb-0">
+                  {toyLine[0].description}
+                </p>
+              )}
             </div>
           </>
         }
