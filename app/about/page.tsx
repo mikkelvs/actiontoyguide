@@ -1,20 +1,23 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import ContactForm from "../components/ContactForm/ContactForm";
+import Figure from "../components/Figure/Figure";
 import OneColumnLayout from "../components/OneColumnLayout/OneColumnLayout";
 
 const Page = () => (
   <OneColumnLayout>
     <h1>About ActionToyGuide.com</h1>
 
+    <Figure
+      src="/we-really-do-care.webp"
+      alt="We really do care"
+      width={300}
+      height={400}
+      caption="We really do care!"
+    />
+
     <p>
-      <Image
-        src="/we-really-do-care.webp"
-        alt="We really do care"
-        width={300}
-        height={400}
-        className="float-right ml-8 mb-8 border-8 border-white"
-      />
       The idea for ActionToyGuide.com is one I toyed (pun intended!) around with
       for ages, without really acting on it. I have been collecting vintage
       action figures and toys basically my whole life, and the products from
@@ -31,9 +34,10 @@ const Page = () => (
       In order to build the website, I first registrered the domain name and
       then headed to eBay to obtain a complete collection, as I had none in my
       possession. Luckily, they are not that difficult to come by. I believe, I
-      have sourced every variant - but please let me know if any are missing
-      from the archive! Next step was to scan and edit each individual page, a
-      pretty arduous process for 400+ pages, I might add.
+      have sourced every variant - but please{" "}
+      <Link href="/contact">let me know</Link> if any are missing from the
+      archive! Next step was to scan and edit each individual page, a pretty
+      arduous process for 400+ pages, I might add.1
     </p>
     <p>
       While no major changes to the site are planned, small tweaks are

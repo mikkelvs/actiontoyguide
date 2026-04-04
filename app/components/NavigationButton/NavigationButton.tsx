@@ -12,22 +12,18 @@ const NavigationButton = ({
   height,
 }: NavigationButtonProps): React.JSX.Element => {
   return (
-    <Link href={href}>
+    <Link href={href} className="navigation-button">
       <div className="w-full flex items-center justify-start md:w-full md:h-16 lg:h-10">
         <Image
           src={src}
           alt="Image"
           width={width}
           height={height}
-          className={`border-4 hover:border-pink-500 ${
-            active ? " border-pink-500" : "border-white"
-          }`}
+          className={`border-4  ${active ? "selected" : ""}`}
         />
       </div>
 
-      <div className="text-sm text-white text-center font-bold mt-1">
-        {label}
-      </div>
+      <div className="text-sm text-center font-bold mt-1">{label}</div>
     </Link>
   );
 };

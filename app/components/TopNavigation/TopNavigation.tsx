@@ -4,11 +4,21 @@ const TopNavigation = (): React.JSX.Element => {
   return (
     <div className="w-full grid md:justify-items-end ">
       <div className="w-full md:w-4/5 py-4 flex gap-4 md:gap-16 justify-between lg:justify-end items-center text-white text-sm">
-        <Link href="/about">About</Link>
-        <Link href="/history-of-kenner">History of Kenner</Link>
+        <Link
+          href="/about"
+          className="text-white no-underline hover:text-pink-500"
+        >
+          About
+        </Link>
+        <Link
+          href="/history-of-kenner"
+          className="text-white no-underline hover:text-pink-500"
+        >
+          History of Kenner
+        </Link>
         <Link
           href="https://www.instagram.com/mikkels.vintage.toys"
-          className="px-2 md:px-4 py-1 rounded-lg"
+          className="px-2 md:px-4 py-1 rounded-lg text-white hover:text-pink-500"
           target="_blank"
         >
           <svg
@@ -34,7 +44,7 @@ const TopNavigation = (): React.JSX.Element => {
         </Link>
         <Link
           href="/contact"
-          className=" px-2 md:px-4 py-1 rounded-lg bg-pink-500 text-white"
+          className=" px-2 md:px-4 py-1 rounded-lg bg-pink-500 text-white hover:bg-pink-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

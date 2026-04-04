@@ -65,7 +65,7 @@ const Page = async ({ params }: PageProps) => {
         }
       >
         <>
-          <div className="border-white border-8 lg:border-12">
+          <div className="border-white border-8 md:border-12">
             <Image
               src={`/images/${catalogYear}.${catalogNumber}/${page}.webp`}
               alt="Sample Toy Image"

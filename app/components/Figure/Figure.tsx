@@ -1,20 +1,21 @@
 import Image from "next/image";
 
-import ImageFigureProps from "./ImageFigure.types";
+import FigureProps from "./Figure.types";
 
-const ImageFigure = ({
+const Figure = ({
   src,
   alt,
   width,
   height,
   caption,
   align = "right",
-}: ImageFigureProps): React.JSX.Element => {
+}: FigureProps): React.JSX.Element => {
+  const alignmentClass = align === "left" ? "float-left" : "float-right";
   const leftAligned = align === "left";
 
   return (
     <figure
-      className={`float-${align} w-1/2 md:w-2/5 mt-2 mb-4 ${leftAligned ? "mr-4" : "ml-4"} border-8 lg:border-12 border-white bg-white inline-block`}
+      className={`${alignmentClass} w-1/2 md:w-2/5 mt-2 mb-4 ${leftAligned ? "mr-4" : "ml-4"} border-8 lg:border-12 border-white bg-white inline-block`}
     >
       <div className="w-full">
         <Image
@@ -31,4 +32,4 @@ const ImageFigure = ({
   );
 };
 
-export default ImageFigure;
+export default Figure;

@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import ImageFigure from "../components/ImageFigure/ImageFigure";
+import Figure from "../components/Figure/Figure";
 import OneColumnLayout from "../components/OneColumnLayout/OneColumnLayout";
 
 const Page = () => (
@@ -39,11 +37,11 @@ const Page = () => (
 
     <h2>The Star Wars Revolution (Late 1970s–Early 1980s)</h2>
 
-    <ImageFigure
+    <Figure
       src="/cardback.webp"
       alt="Kenner Cardback"
-      width={200}
-      height={284}
+      width={300}
+      height={426}
       caption="Selection of ESB figures from the Princess Leia Bespin cardback"
     />
 
@@ -112,7 +110,7 @@ const Page = () => (
       inventive play features like “fright” mechanisms and ghost-catching gear.
     </p>
 
-    <ImageFigure
+    <Figure
       src="/1990-94.webp"
       alt="1990 Kenner Toy Fair Catalog Page"
       width={300}
@@ -179,7 +177,7 @@ const Page = () => (
       consistent innovations:
     </p>
 
-    <ImageFigure
+    <Figure
       src="/1990-36.webp"
       alt="Kenner Cardback"
       width={300}

@@ -1,4 +1,4 @@
-type ImageFigureProps = {
+type FigureProps = {
   src: string;
   alt: string;
   width: number;
@@ -7,4 +7,4 @@ type ImageFigureProps = {
   align?: "left" | "right";
 };
 
-export default ImageFigureProps;
+export default FigureProps;
