@@ -41,15 +41,15 @@ export default function RootLayout({
           {children}
           <Analytics />
           <footer>
-            <p className="text-white w-full p-8 text-center italic">
+            <p className="text-white w-full py-8 text-center italic">
               Not affiliated with or endorsed by Hasbro or Kenner. Informational
               and archival purposes only.
             </p>
             <Image
               src="/kenner.svg"
               alt="Kenner Logo"
-              width={200}
-              height={54}
+              width={150}
+              height={41}
               className="mx-auto mb-8"
             />
           </footer>

@@ -46,7 +46,7 @@ const Page = () => (
 
     <p>
       <a
-        href="https://figurerealm.com/actionfigure"
+        href="https://www.figurerealm.com/actionfigure"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -54,6 +54,18 @@ const Page = () => (
       </a>
       <br />
       Expansive database of every conceivable action figure line.
+    </p>
+
+    <p>
+      <a
+        href="http://www.theswca.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        The Star Wars Collectors Archive
+      </a>
+      <br />
+      The definitive resource for all things vintage Star Wars collecting.
     </p>
 
     <p>
