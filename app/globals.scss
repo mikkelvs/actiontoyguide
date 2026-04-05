@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@use "tailwindcss";
 
 :root {
   --background: #3c0366;
@@ -57,54 +57,38 @@
 
   .navigation-button {
     @apply text-white no-underline;
+
+    img {
+      @apply border-white;
+    }
+
+    &:hover img,
+    img.selected {
+      @apply border-pink-500;
+    }
+
+    &:hover,
+    .selected {
+      @apply text-pink-500;
+    }
   }
 
-  .navigation-button img {
-    @apply border-white;
-  }
-
-  .navigation-button:hover img,
-  .navigation-button img.selected {
-    @apply border-pink-500;
-  }
-
-  .navigation-button:hover,
-  .navigation-button .selected {
-    @apply text-pink-500;
-  }
-
-  .homepage-link {
+  .gallery-link {
     @apply no-underline;
-  }
 
-  .homepage-link img {
-    @apply border-white;
-  }
+    img {
+      @apply border-white;
+    }
 
-  .homepage-link:hover img {
-    @apply border-pink-500;
-  }
+    &:hover img,
+    img.selected {
+      @apply border-pink-500;
+    }
 
-  .homepage-link:hover .badge {
-    @apply bg-blue-800 border-blue-400;
-  }
-
-  .gallery-link a {
-    @apply no-underline;
-  }
-
-  .gallery-link img {
-    @apply border-white;
-  }
-
-  .gallery-link:hover img,
-  .gallery-link img.selected {
-    @apply border-pink-500;
-  }
-
-  .gallery-link:hover .badge,
-  .gallery-link .badge.selected {
-    @apply bg-blue-800 border-blue-400;
+    &:hover .badge,
+    .badge.selected {
+      @apply bg-blue-800 border-blue-400;
+    }
   }
 
   .badge {

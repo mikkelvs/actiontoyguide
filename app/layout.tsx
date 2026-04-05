@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./globals.scss";
 
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
