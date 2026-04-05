@@ -19,11 +19,15 @@ const NavigationButton = ({
           alt="Image"
           width={width}
           height={height}
-          className={`border-4  ${active ? "selected" : ""}`}
+          className={`border-4 ${active ? "selected" : ""}`}
         />
       </div>
 
-      <div className="text-sm text-center font-bold mt-1">{label}</div>
+      <div
+        className={`text-sm text-center font-bold mt-1 ${active ? "selected" : ""}`}
+      >
+        {label}
+      </div>
     </Link>
   );
 };

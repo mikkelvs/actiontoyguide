@@ -1,7 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
 
-import ContactForm from "../components/ContactForm/ContactForm";
 import Figure from "../components/Figure/Figure";
 import OneColumnLayout from "../components/OneColumnLayout/OneColumnLayout";
 
@@ -18,6 +16,13 @@ const Page = () => (
     />
 
     <p>
+      You have reached <strong>ActionToyGuide.com</strong>, the one-stop
+      resource for vintage Kenner action figure pack-in catalogs.
+    </p>
+
+    <h2>Site history</h2>
+
+    <p>
       The idea for ActionToyGuide.com is one I toyed (pun intended!) around with
       for ages, without really acting on it. I have been collecting vintage
       action figures and toys basically my whole life, and the products from
@@ -31,19 +36,37 @@ const Page = () => (
     </p>
 
     <p>
-      In order to build the website, I first registrered the domain name and
-      then headed to eBay to obtain a complete collection, as I had none in my
-      possession. Luckily, they are not that difficult to come by. I believe, I
-      have sourced every variant - but please{" "}
-      <Link href="/contact">let me know</Link> if any are missing from the
-      archive! Next step was to scan and edit each individual page, a pretty
-      arduous process for 400+ pages, I might add.1
-    </p>
-    <p>
       While no major changes to the site are planned, small tweaks are
-      implemented when necessary, and I always welcome feedback and suggestions.
+      implemented when necessary, and I always{" "}
+      <Link href="/contact">welcome feedback and suggestions</Link>.
     </p>
     <p>Enjoy!</p>
+
+    <h2>Sites we love</h2>
+
+    <p>
+      <a
+        href="https://figurerealm.com/actionfigure"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Figure Realm
+      </a>
+      <br />
+      Expansive database of every conceivable action figure line.
+    </p>
+
+    <p>
+      <a
+        href="https://commons.wikimedia.org/wiki/File:Kenner_logo.svg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Wikimedia Commons
+      </a>
+      <br />
+      For our awesome Kenner logo.
+    </p>
   </OneColumnLayout>
 );
 

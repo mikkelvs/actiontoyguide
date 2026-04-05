@@ -3,6 +3,7 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Image from "next/image";
 
 import Header from "./components/Header/Header";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
@@ -39,8 +40,18 @@ export default function RootLayout({
           <Header />
           {children}
           <Analytics />
-          <footer className="text-white w-full p-8 text-center italic">
-            Not endorsed by Hasbro or Kenner. Informational purposes only.
+          <footer>
+            <p className="text-white w-full p-8 text-center italic">
+              Not affiliated with or endorsed by Hasbro or Kenner. Informational
+              and archival purposes only.
+            </p>
+            <Image
+              src="/kenner.svg"
+              alt="Kenner Logo"
+              width={200}
+              height={54}
+              className="mx-auto mb-8"
+            />
           </footer>
         </div>
       </body>
