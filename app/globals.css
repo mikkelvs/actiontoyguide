@@ -73,6 +73,26 @@
     @apply text-pink-500;
   }
 
+  .homepage-link {
+    @apply no-underline;
+  }
+
+  .homepage-link img {
+    @apply border-white;
+  }
+
+  .homepage-link:hover img {
+    @apply border-pink-500;
+  }
+
+  .homepage-link:hover .badge {
+    @apply bg-blue-800 border-blue-400;
+  }
+
+  .gallery-link a {
+    @apply no-underline;
+  }
+
   .gallery-link img {
     @apply border-white;
   }

@@ -16,7 +16,7 @@ const Page = () => (
         <Link
           key={index}
           href={`/${catalog.id}/01`}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center gallery-link"
         >
           <div className="w-full flex items-center justify-center h-full">
             <Image
@@ -24,7 +24,7 @@ const Page = () => (
               src={`/images/${catalog.year}.${catalog.catalogNumber}/01.webp`}
               width={catalog.width / 5}
               height={catalog.height / 5}
-              className="w-full h-auto border-white border-4"
+              className="w-full h-auto border-8"
             />
           </div>
           <Badge>{catalog.year}</Badge>
