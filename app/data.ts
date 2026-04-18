@@ -1,10 +1,131 @@
 import { Catalog, ToyLine } from "./data.types";
 
-const _frontCover: ToyLine = {
-  id: "frontCover",
-  slug: "front-cover",
+const _frontCover_1988_1: ToyLine = {
+  id: "frontCover_1988_1",
+  slug: "front-cover-1988-1",
   name: "Front Cover",
-  description: "",
+  description:
+    "The 1988 Action Toy Guide contains the lines The Real Ghostbusters, Bone Age, Silverhawks, Starting Lineup, Sky Commanders and M.A.S.K. Split Seconds.",
+};
+
+const _frontCover_1988_2: ToyLine = {
+  id: "frontCover_1988_2",
+  slug: "front-cover-1988-2",
+  name: "Front Cover",
+  description:
+    "The 1988 Action Toy Guide contains the lines The Real Ghostbusters, Bone Age, Silverhawks, Starting Lineup and Skyball.",
+};
+
+const _frontCover_1988_3: ToyLine = {
+  id: "frontCover_1988_3",
+  slug: "front-cover-1988-3",
+  name: "Front Cover",
+  description:
+    "The 1988 Action Toy Guide contains the lines The Real Ghostbusters, Bone Age, RoboCop and the Ultra Police, Starting Lineup and Skyball.",
+};
+
+const _frontCover_1989: ToyLine = {
+  id: "frontCover_1989",
+  slug: "front-cover-1989",
+  name: "Front Cover",
+  description:
+    "The 1989 Action Toy Guide contains the lines The Real Ghostbusters, RoboCop and the Ultra Police, Building Blasters, Mega Force, Starting Lineup, Police Academy and Blast Jets.",
+};
+
+const _frontCover_1990_1: ToyLine = {
+  id: "frontCover_1990_1",
+  slug: "front-cover-1990-1",
+  name: "Front Cover",
+  description:
+    "The 1990 Action Toy Guide contains the lines The Real Ghostbusters, Rat Fink, RoboCop and the Ultra Police, Starting Lineup, Mega Force, Beetlejuice, Shadow Strikers and Police Academy.",
+};
+
+const _frontCover_1990_2: ToyLine = {
+  id: "frontCover_1990_2",
+  slug: "front-cover-1990-2",
+  name: "Front Cover",
+  description:
+    "The 1990 Action Toy Guide contains the lines The Dark Knight Collection, Rat Fink, RoboCop and the Ultra Police, Starting Lineup, Beetlejuice, Shadow Strikers and The Real Ghostbusters.",
+};
+
+const _frontCover_1991: ToyLine = {
+  id: "frontCover_1991",
+  slug: "front-cover-1991",
+  name: "Front Cover",
+  description:
+    "The 1991 Action Toy Guide contains the lines The Dark Knight Collection, Robin Hood: Prince of Thieves, Swamp Thing, Starting Lineup, Beetlejuice, Bill & Ted's Excellent Adventure, The Real Ghostbusters and The Claw.",
+};
+
+const _frontCover_1992: ToyLine = {
+  id: "frontCover_1992",
+  slug: "front-cover-1992",
+  name: "Front Cover",
+  description:
+    "The 1992 Action Toy Guide contains the lines Batman Returns, Terminator 2, Starting Lineup, Savage Mondo Blitzers, Robin Hood: Prince of Thieves, Capitol Critters, Nerf and The Claw.",
+};
+
+const _frontCover_1993: ToyLine = {
+  id: "frontCover_1993",
+  slug: "front-cover-1993",
+  name: "Front Cover",
+  description:
+    "The 1993 Action Toy Guide contains the lines Jurassic Park, The Claw, Batman: The Animated Series, Terminator 2, Nerf, Starting Lineup, Aliens and Bad Beast.",
+};
+
+const _frontCover_1994: ToyLine = {
+  id: "frontCover_1994",
+  slug: "front-cover-1994",
+  name: "Front Cover",
+  description:
+    "The 1994 Action Toy Guide contains the lines Legends of Batman, Batman: The Animated Series, Aliens, Predator, Carzillas, Starting Lineup, Shaq Attaq, Techno Zoids, Jurassic Park, The Shadow, Nerf and Ricochet.",
+};
+
+const _frontCover_1995_1: ToyLine = {
+  id: "frontCover_1995_1",
+  slug: "front-cover-1995-1",
+  name: "Front Cover",
+  description:
+    "The 1995 Action Toy Guide contains the lines Batman Forever, Legends of Batman, Batman: The Animated Series, G.I. Joe, VR Troopers, Waterworld, Star Wars: The Power of the Force, Gargoyles, Congo, The Mask, Mortal Kombat, Transformers, XRC, Tonka and Nerf.",
+};
+
+const _frontCover_1995_2: ToyLine = {
+  id: "frontCover_1995_2",
+  slug: "front-cover-1995-2",
+  name: "Front Cover",
+  description:
+    "The 1995 Action Toy Guide contains the lines Batman Forever, Legends of Batman, Batman: The Animated Series, G.I. Joe Extreme, Beast Wars, Superman, Star Wars: The Power of the Force, The Mask, Gargoyles, Tonka, XRC and Nerf.",
+};
+
+const _frontCover_1996: ToyLine = {
+  id: "frontCover_1996",
+  slug: "front-cover-1996",
+  name: "Front Cover",
+  description:
+    "The 1996 Action Toy Guide contains the lines Star Wars: The Power of the Force, Star Wars: Shadows of the Empire, Gargoyles, Batman Forever, Legends of Batman, The Adventures of Batman and Robin, Total Justice, Beast Wars, Superman, Tonka, SSP Super Sonic Power, XRC, Nerf, DragonHHeart, Action Man, G.I. Joe Extreme and Starting Lineup.",
+};
+
+const _frontCover_1997: ToyLine = {
+  id: "frontCover_1997",
+  slug: "front-cover-1997",
+  name: "Front Cover",
+  description:
+    "The 1997 Action Toy Guide contains the lines Legends of the Dark Knight, Batman & Robin, Total Justice, Batman & Robin: Duo Force, Superman, Steel, Star Wars: The Power of the Force, The Lost World: Jurassic Park, Beast Wars, Starting Lineup, MicroVerse, Tonka, SSP Super Sonic Power, Magna Crew, Winner's Circle, Nerf, Cyber Stryke Gear and XRC.",
+};
+
+const _frontCover_1998_1: ToyLine = {
+  id: "frontCover_1998_1",
+  slug: "front-cover-1998-1",
+  name: "Front Cover",
+  description:
+    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Mummies Alive, Starting Lineup, G.I. Joe Classic Collection, Beast Wars, Batman & Robin, Legends of the Dark Knight, The New Batman Adventures, The Lost World: Jurassic Park, Tonka and Nerf.",
+};
+
+const _frontCover_1998_2: ToyLine = {
+  id: "frontCover_1998_2",
+  slug: "front-cover-1998-2",
+  name: "Front Cover",
+  description:
+    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Beast Wars, Legends of the Dark Knight, Batman & Robin, The New Batman Adventures, Batman: Knight Force Ninjas, Starting Lineup, Winner's Circle, Jurassic Park: Chaos Effect, G.I. Joe Classic Collection, Tonka, Nerf, Small Soldiers and XRC.",
 };
 
 const actionMan: ToyLine = {
@@ -593,9 +714,8 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
-        description:
-          "The 1988 Action Toy Guide contains the lines The Real Ghostbusters, Bone Age, Silverhawks, Starting Lineup, Sky Commanders and M.A.S.K. Split Seconds",
+        toyLine: [_frontCover_1988_1],
+        description: "",
       },
       {
         fileName: "02",
@@ -743,7 +863,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1988_2],
         description: "",
       },
       {
@@ -892,7 +1012,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1988_3],
         description: "",
       },
       {
@@ -1041,7 +1161,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1989],
         description: "",
       },
       {
@@ -1190,7 +1310,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1990_1],
         description: "",
       },
       {
@@ -1359,7 +1479,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1990_2],
         description: "",
       },
       {
@@ -1528,7 +1648,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1991],
         description: "",
       },
       {
@@ -1697,7 +1817,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1992],
         description: "",
       },
       {
@@ -1866,7 +1986,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1993],
         description: "",
       },
       {
@@ -2035,7 +2155,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1994],
         description: "",
       },
       {
@@ -2204,7 +2324,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1995_1],
         description: "",
       },
       {
@@ -2393,7 +2513,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1995_2],
         description: "",
       },
       {
@@ -2582,7 +2702,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover],
+        toyLine: [_frontCover_1996],
         description: "",
       },
       {
@@ -2771,7 +2891,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [legendsOfTheDarkKnight],
+        toyLine: [_frontCover_1997],
         description: "",
       },
       {
@@ -2900,7 +3020,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [starWarsThePowerOfTheForce],
+        toyLine: [_frontCover_1998_1],
         description: "",
       },
       {
@@ -3029,7 +3149,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [starWarsThePowerOfTheForce],
+        toyLine: [_frontCover_1998_2],
         description: "",
       },
       {
