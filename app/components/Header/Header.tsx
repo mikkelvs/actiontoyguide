@@ -13,7 +13,6 @@ const Header = (): React.JSX.Element => {
   const pathname = usePathname();
   const params = useParams<{ id: string }>();
   const isHomePage = pathname === "/";
-  console.log(pathname);
 
   return (
     <header className="w-full mx-auto pb-12">
@@ -40,7 +39,7 @@ const Header = (): React.JSX.Element => {
           className={` ${
             isHomePage
               ? "hidden"
-              : "w-3/5 md:w-4/5 md:grid grid-cols-7 gap-4 md:items-center md:gap-4 lg:flex lg:justify-end hidden"
+              : "w-3/5 md:w-4/5 md:grid grid-cols-8 gap-4 md:items-center md:gap-4 lg:flex lg:justify-end hidden"
           }`}
         >
           {data.map((catalog, index) => (

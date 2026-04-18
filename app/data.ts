@@ -55,6 +55,14 @@ const batmanForever: ToyLine = {
     "Kenner produced the Batman Forever toy line in 1995 to support the theatrical release of the film. Figures included multiple versions of Batman and Robin as well as villains such as Two-Face and the Riddler. The toys featured imaginative armor variations, accessories, and vehicles typical of Kenner’s superhero lines.",
 };
 
+const batmanKnightForceNinjas: ToyLine = {
+  id: "batmanKnightForceNinjas",
+  slug: "batman-knight-force-ninjas",
+  name: "Batman: Knight Force Ninjas",
+  description:
+    "Knight Force Ninjas was a subline of the Batman toy series that introduced ninja-themed characters with distinctive armor and weapons. The toys featured action elements such as spinning blades or hidden compartments. The concept added a martial arts twist to the otherwise traditional Batman designs.",
+};
+
 const batmanReturns: ToyLine = {
   id: "batmanReturns",
   slug: "batman-returns",
@@ -74,7 +82,7 @@ const batmanTheAnimatedSeries: ToyLine = {
 const beastWars: ToyLine = {
   id: "beastWars",
   slug: "beast-wars",
-  name: "Beast Wars",
+  name: "Transformers: Beast Wars",
   description:
     "Beast Wars debuted in 1996 as a new direction for the Transformers brand. Kenner’s figures transformed between robots and animals such as gorillas, dinosaurs, and insects. The combination of mechanical and organic designs created a distinctive look. The toys were supported by a popular computer-animated television series.",
 };
@@ -175,6 +183,14 @@ const giJoe: ToyLine = {
     "After acquiring the brand through Hasbro’s purchase of Kenner, the company continued producing G.I. Joe figures in the 1990s. These releases expanded the long-running military adventure concept with new characters, vehicles, and missions. The toys maintained the franchise’s focus on heroic teams battling villainous forces.",
 };
 
+const giJoeClassicCollection: ToyLine = {
+  id: "giJoeClassicCollection",
+  slug: "gi-joe-classic-collection",
+  name: "G.I. Joe Classic Collection",
+  description:
+    "The G.I. Joe Classic Collection brought back beloved designs from the original toy line, featuring detailed figures and authentic accessories. These releases celebrated the franchise’s rich history and iconic characters.",
+};
+
 const giJoeExtreme: ToyLine = {
   id: "giJoeExtreme",
   slug: "gi-joe-extreme",
@@ -189,6 +205,14 @@ const jurassicPark: ToyLine = {
   name: "Jurassic Park",
   description:
     "Kenner’s Jurassic Park line debuted in 1993 alongside the blockbuster film. The toys included dinosaur figures, human characters, and vehicles inspired by the island setting. Many dinosaurs featured electronic sounds or action features. The line became one of Kenner’s most successful movie-based toy ranges.",
+};
+
+const jurassicParkChaosEffect: ToyLine = {
+  id: "jurassicParkChaosEffect",
+  slug: "jurassic-park-chaos-effect",
+  name: "Jurassic Park: Chaos Effect  ",
+  description:
+    "Chaos Effect was a subline of the Jurassic Park toy series that introduced mutated dinosaur figures with exaggerated features and bright colors. The toys featured action elements such as snapping jaws or projectile weapons. The concept added a fantastical twist to the otherwise realistic dinosaur designs of the main line.",
 };
 
 const legendsOfBatman: ToyLine = {
@@ -245,6 +269,14 @@ const mortalKombat: ToyLine = {
   name: "Mortal Kombat",
   description:
     "Kenner adapted the popular video game franchise Mortal Kombat into a toy line during the mid-1990s. Figures represented fighters from the games, often featuring stylized martial arts poses and accessories. The toys captured the competitive spirit of the series while adapting its themes for a younger audience.",
+};
+
+const mummiesAlive: ToyLine = {
+  id: "mummiesAlive",
+  slug: "mummies-alive",
+  name: "Mummies Alive",
+  description:
+    "Mummies Alive was a Kenner toy line based on the animated series about ancient Egyptian heroes reborn in modern times to battle supernatural villains. Figures featured mystical armor, action accessories, and spooky designs rooted in the show’s adventure themes.",
 };
 
 const nerf: ToyLine = {
@@ -349,6 +381,14 @@ const skyCommanders: ToyLine = {
   name: "Sky Commanders",
   description:
     "Sky Commanders introduced a unique vertical play system where action figures traveled along string lines stretched across walls or rooms. The toys depicted soldiers battling in mountainous terrain using climbing equipment and futuristic weapons. The innovative system made the line distinctive among 1980s action toys.",
+};
+
+const smallSoldiers: ToyLine = {
+  id: "smallSoldiers",
+  slug: "small-soldiers",
+  name: "Small Soldiers",
+  description:
+    "Small Soldiers was a Kenner toy line based on the 1998 film of the same name. The figures depicted miniature soldiers engaging in battles with larger enemies. The toys emphasized imaginative play and storytelling within the film's universe.",
 };
 
 const ssp: ToyLine = {
@@ -461,6 +501,14 @@ const theMask: ToyLine = {
   name: "The Mask",
   description:
     "Inspired by the hit comedy film and animated series, The Mask toy line featured the zany green-faced hero in exaggerated poses and costumes. Accessories and comedic transformations reflected the character’s cartoon-like abilities and unpredictable humor.",
+};
+
+const theNewBatmanAdventures: ToyLine = {
+  id: "theNewBatmanAdventures",
+  slug: "the-new-batman-adventures",
+  name: "The New Batman Adventures",
+  description:
+    "The New Batman Adventures was a continuation of Kenner’s animated Batman toy line, reflecting the updated art style of the later seasons of Batman: The Animated Series. Figures featured sleeker designs and new characters while maintaining the core aesthetic of the original line.",
 };
 
 const theRealGhostbusters: ToyLine = {
@@ -2834,6 +2882,264 @@ const data: Catalog[] = [
       {
         fileName: "23",
         toyLine: [cyberStrykeGear],
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: [xrc],
+        description: "",
+      },
+    ],
+  },
+  {
+    catalogNumber: "0881280.00",
+    id: "1998-1",
+    year: "1998",
+    width: 2140,
+    height: 800,
+    pages: [
+      {
+        fileName: "01",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "02",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: [mummiesAlive],
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: [startingLineup],
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: [giJoeClassicCollection],
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: [beastWars],
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: [beastWars],
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: [beastWars],
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: [batmanAndRobin],
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: [batmanAndRobin],
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: [legendsOfTheDarkKnight],
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: [theNewBatmanAdventures],
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: [theLostWorld],
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: [theLostWorld],
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: [theLostWorld],
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: [tonka],
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: [tonka],
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "24",
+        toyLine: [nerf],
+        description: "",
+      },
+    ],
+  },
+  {
+    catalogNumber: "0881280.01",
+    id: "1998-2",
+    year: "1998",
+    width: 2140,
+    height: 800,
+    pages: [
+      {
+        fileName: "01",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "02",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "03",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "04",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "05",
+        toyLine: [starWarsThePowerOfTheForce],
+        description: "",
+      },
+      {
+        fileName: "06",
+        toyLine: [beastWars],
+        description: "",
+      },
+      {
+        fileName: "07",
+        toyLine: [beastWars],
+        description: "",
+      },
+      {
+        fileName: "08",
+        toyLine: [beastWars, legendsOfTheDarkKnight],
+        description: "",
+      },
+      {
+        fileName: "09",
+        toyLine: [batmanAndRobin],
+        description: "",
+      },
+      {
+        fileName: "10",
+        toyLine: [theNewBatmanAdventures],
+        description: "",
+      },
+      {
+        fileName: "11",
+        toyLine: [batmanKnightForceNinjas],
+        description: "",
+      },
+      {
+        fileName: "12",
+        toyLine: [startingLineup],
+        description: "",
+      },
+      {
+        fileName: "13",
+        toyLine: [winnersCircle],
+        description: "",
+      },
+      {
+        fileName: "14",
+        toyLine: [jurassicParkChaosEffect],
+        description: "",
+      },
+      {
+        fileName: "15",
+        toyLine: [jurassicParkChaosEffect, giJoeClassicCollection],
+        description: "",
+      },
+      {
+        fileName: "16",
+        toyLine: [tonka],
+        description: "",
+      },
+      {
+        fileName: "17",
+        toyLine: [tonka],
+        description: "",
+      },
+      {
+        fileName: "18",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "19",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "20",
+        toyLine: [nerf],
+        description: "",
+      },
+      {
+        fileName: "21",
+        toyLine: [smallSoldiers],
+        description: "",
+      },
+      {
+        fileName: "22",
+        toyLine: [smallSoldiers],
+        description: "",
+      },
+      {
+        fileName: "23",
+        toyLine: [smallSoldiers],
         description: "",
       },
       {
