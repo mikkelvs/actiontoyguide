@@ -33,17 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head></head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="max-w-7xl mx-auto px-4 md:px-8">
-          <TopNavigation />
-          <Header />
-          {children}
-          <Analytics />
-          <Script id="consent-mode" strategy="beforeInteractive">
-            {`
+      <head>
+        <Script id="consent-mode" strategy="beforeInteractive">
+          {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
 
@@ -54,13 +46,23 @@ export default function RootLayout({
             ad_personalization: 'denied'
           });
 
-          gtag('config', 'G-XXXXXXXXXX', {
+          gtag('config', '${process.env.GA_TRACKING_ID || ""}', {
             anonymize_ip: true,
             allow_google_signals: false,
             allow_ad_personalization_signals: false
           });
         `}
-          </Script>
+        </Script>
+      </head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <div className="max-w-7xl mx-auto px-4 md:px-8">
+          <TopNavigation />
+          <Header />
+          {children}
+          <Analytics />
+
           <GoogleAnalytics gaId={process.env.GA_TRACKING_ID || ""} />
           <footer>
             <p className="text-white w-full py-8 text-center italic">
