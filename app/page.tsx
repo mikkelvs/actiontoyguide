@@ -24,6 +24,7 @@ const Page = () => (
               src={`/images/${catalog.year}.${catalog.catalogNumber}/01.webp`}
               width={catalog.width / 5}
               height={catalog.height / 5}
+              loading="eager"
               className="w-full h-auto border-8"
             />
           </div>
