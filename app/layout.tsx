@@ -64,7 +64,7 @@ export default async function RootLayout({
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <TopNavigation />
           <Header />
-          {children}s
+          {children}
           <Analytics />
           <GoogleAnalytics gaId={process.env.GA_TRACKING_ID || ""} />
           <footer>
