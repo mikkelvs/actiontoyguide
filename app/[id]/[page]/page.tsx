@@ -1,5 +1,5 @@
+import { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 
 import { PageProps } from "@/app/[id]/[page]/page.types";
 import Gallery from "@/app/components/Gallery/Gallery";
@@ -15,6 +15,22 @@ export async function generateStaticParams() {
       page: page.fileName,
     })),
   );
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { id, page } = await params;
+  const catalog = data.find((c) => c.id === id);
+  const pageData = catalog?.pages.find((p) => p.fileName === page);
+
+  const title = pageData
+    ? `${catalog?.year} Action Toy Guide - Page ${pageData.fileName} - ${pageData.toyLine[0].name}`
+    : "Action Toy Guide";
+
+  return {
+    title,
+  };
 }
 
 const Page = async ({ params }: PageProps) => {

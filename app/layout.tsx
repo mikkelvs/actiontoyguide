@@ -4,9 +4,11 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { cookies } from "next/headers";
 import Image from "next/image";
 import Script from "next/script";
 
+import CookieConsent from "./components/CookieConsent/CookieConsent";
 import Header from "./components/Header/Header";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
 
@@ -26,11 +28,13 @@ export const metadata: Metadata = {
     "Archive of vintage Kenner 80's and 90's action figure pack-in catalogs.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const consent = (await cookies()).get("cookie_consent")?.value;
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -60,9 +64,8 @@ export default function RootLayout({
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <TopNavigation />
           <Header />
-          {children}
+          {children}s
           <Analytics />
-
           <GoogleAnalytics gaId={process.env.GA_TRACKING_ID || ""} />
           <footer>
             <p className="text-white w-full py-8 text-center italic">
@@ -78,6 +81,7 @@ export default function RootLayout({
             />
           </footer>
         </div>
+        <CookieConsent initialConsent={consent} />
       </body>
     </html>
   );
