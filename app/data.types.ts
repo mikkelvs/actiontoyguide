@@ -13,6 +13,7 @@ export type Page = {
 
 export type Catalog = {
   catalogNumber: string;
+  name: string;
   id: string;
   year: string;
   width: number;

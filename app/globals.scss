@@ -23,9 +23,9 @@
   body {
     background: linear-gradient(
       to bottom,
-      oklch(14.7% 0.004 49.3),
-      oklch(28.4% 0.109 3.907),
-      oklch(29.1% 0.149 302.717)
+      /* taupe-950 */ oklch(14.7% 0.004 49.3),
+      /* pink-950 */ oklch(28.4% 0.109 3.907),
+      /* purple-950 */ oklch(29.1% 0.149 302.717)
     );
     background-attachment: fixed;
     color: var(--color-white);

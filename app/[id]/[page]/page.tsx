@@ -44,9 +44,11 @@ const Page = async ({ params }: PageProps) => {
   const pageIndex = pages.findIndex((p) => p.fileName === page);
 
   const catalogYear = catalog?.year ?? "";
+  const catalogName = catalog?.name ?? "";
   const catalogNumber = catalog?.catalogNumber ?? "";
 
   const infoBoxLines = [
+    { label: "Name", value: catalogName },
     { label: "Year", value: catalogYear },
     { label: "Catalog #", value: catalogNumber },
     { label: "Pages", value: catalog?.pages.length || 0 },

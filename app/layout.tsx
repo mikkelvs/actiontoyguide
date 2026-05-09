@@ -38,7 +38,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script id="consent-mode" strategy="beforeInteractive">
+        {/* <Script id="consent-mode" strategy="beforeInteractive">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -56,7 +56,7 @@ export default async function RootLayout({
             allow_ad_personalization_signals: false
           });
         `}
-        </Script>
+        </Script> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

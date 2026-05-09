@@ -69,7 +69,7 @@ const _frontCover_1993: ToyLine = {
   slug: "front-cover-1993",
   name: "Front Cover",
   description:
-    "The 1993 Action Toy Guide contains the lines Jurassic Park, The Claw, Batman: The Animated Series, Terminator 2, Nerf, Starting Lineup, Aliens and Bad Beast.",
+    "The 1993 Action Toy Guide contains the lines Jurassic Park, The Claw, Batman: The Animated Series, Terminator 2, Nerf, Starting Lineup, Aliens and Bad Beast. Oddly, the cover also displays the logo for Batman Returns, but this line is not found in its pages.",
 };
 
 const _frontCover_1994: ToyLine = {
@@ -109,7 +109,7 @@ const _frontCover_1997: ToyLine = {
   slug: "front-cover-1997",
   name: "Front Cover",
   description:
-    "The 1997 Action Toy Guide contains the lines Legends of the Dark Knight, Batman & Robin, Total Justice, Batman & Robin: Duo Force, Superman, Steel, Star Wars: The Power of the Force, The Lost World: Jurassic Park, Beast Wars, Starting Lineup, MicroVerse, Tonka, SSP Super Sonic Power, Magna Crew, Winner's Circle, Nerf, Cyber Stryke Gear and XRC.",
+    "The 1997 Action Toy Guide contains the lines Legends of the Dark Knight, Batman & Robin, Total Justice, Batman & Robin: Duo Force, Superman, Steel, Star Wars: The Power of the Force, The Lost World: Jurassic Park, Beast Wars, Starting Lineup, MicroVerse, Tonka, SSP Super Sonic Power, Magna Crew, Winner's Circle, Nerf, Cyber Stryke Gear and XRC. This is the first cover to also display toys, Legends of the Dark Knight.",
 };
 
 const _frontCover_1998_1: ToyLine = {
@@ -117,7 +117,7 @@ const _frontCover_1998_1: ToyLine = {
   slug: "front-cover-1998-1",
   name: "Front Cover",
   description:
-    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Mummies Alive, Starting Lineup, G.I. Joe Classic Collection, Beast Wars, Batman & Robin, Legends of the Dark Knight, The New Batman Adventures, The Lost World: Jurassic Park, Tonka and Nerf.",
+    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Mummies Alive, Starting Lineup, G.I. Joe Classic Collection, Beast Wars, Batman & Robin, Legends of the Dark Knight, The New Batman Adventures, The Lost World: Jurassic Park, Tonka and Nerf. The cover also features toys from Star Wars: The Power of the Force.",
 };
 
 const _frontCover_1998_2: ToyLine = {
@@ -125,7 +125,7 @@ const _frontCover_1998_2: ToyLine = {
   slug: "front-cover-1998-2",
   name: "Front Cover",
   description:
-    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Beast Wars, Legends of the Dark Knight, Batman & Robin, The New Batman Adventures, Batman: Knight Force Ninjas, Starting Lineup, Winner's Circle, Jurassic Park: Chaos Effect, G.I. Joe Classic Collection, Tonka, Nerf, Small Soldiers and XRC.",
+    "The 1998 Action Toy Guide contains the lines Star Wars: The Power of the Force, Beast Wars, Legends of the Dark Knight, Batman & Robin, The New Batman Adventures, Batman: Knight Force Ninjas, Starting Lineup, Winner's Circle, Jurassic Park: Chaos Effect, G.I. Joe Classic Collection, Tonka, Nerf, Small Soldiers and XRC. The cover also features toys from Star Wars: The Power of the Force.",
 };
 
 const actionMan: ToyLine = {
@@ -707,6 +707,7 @@ const xrc: ToyLine = {
 const data: Catalog[] = [
   {
     catalogNumber: "881232000",
+    name: "Action Toy Guide",
     id: "1988-1",
     year: "1988",
     width: 1280,
@@ -856,6 +857,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881232010",
+    name: "Action Toy Guide",
     id: "1988-2",
     year: "1988",
     width: 1280,
@@ -1005,6 +1007,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881232020",
+    name: "Action Toy Guide",
     id: "1988-3",
     year: "1988",
     width: 1280,
@@ -1154,6 +1157,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881233000",
+    name: "Action Toy Guide",
     id: "1989",
     year: "1989",
     width: 1280,
@@ -1303,6 +1307,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881242000",
+    name: "Action Toy Guide",
     id: "1990-1",
     year: "1990",
     width: 1280,
@@ -1472,6 +1477,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881242020",
+    name: "Action Toy Guide",
     id: "1990-2",
     year: "1990",
     width: 1280,
@@ -1641,6 +1647,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881253000",
+    name: "Action Toy Guide",
     id: "1991",
     year: "1991",
     width: 1280,
@@ -1810,6 +1817,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881261010",
+    name: "Action Toy Guide",
     id: "1992",
     year: "1992",
     width: 1280,
@@ -1979,6 +1987,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "881261020",
+    name: "Action Toy Guide",
     id: "1993",
     year: "1993",
     width: 1280,
@@ -2148,6 +2157,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "88126600",
+    name: "Action Toy Guide",
     id: "1994",
     year: "1994",
     width: 1280,
@@ -2317,6 +2327,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "088126900",
+    name: "Action Hits",
     id: "1995-1",
     year: "1995",
     width: 1280,
@@ -2506,6 +2517,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "088126901",
+    name: "Action Hits",
     id: "1995-2",
     year: "1995",
     width: 1280,
@@ -2695,6 +2707,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "88127300",
+    name: "More Hits More Action!",
     id: "1996",
     year: "1996",
     width: 1280,
@@ -2884,6 +2897,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "088127800",
+    name: "More Fun From Kenner",
     id: "1997",
     year: "1997",
     width: 2140,
@@ -2891,7 +2905,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover_1997],
+        toyLine: [_frontCover_1997, legendsOfTheDarkKnight],
         description: "",
       },
       {
@@ -3013,6 +3027,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "0881280.00",
+    name: "Kenner Is Fun!",
     id: "1998-1",
     year: "1998",
     width: 2140,
@@ -3020,7 +3035,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover_1998_1],
+        toyLine: [_frontCover_1998_1, starWarsThePowerOfTheForce],
         description: "",
       },
       {
@@ -3142,6 +3157,7 @@ const data: Catalog[] = [
   },
   {
     catalogNumber: "0881280.01",
+    name: "Kenner Is Fun!",
     id: "1998-2",
     year: "1998",
     width: 2140,
@@ -3149,7 +3165,7 @@ const data: Catalog[] = [
     pages: [
       {
         fileName: "01",
-        toyLine: [_frontCover_1998_2],
+        toyLine: [_frontCover_1998_2, starWarsThePowerOfTheForce],
         description: "",
       },
       {
