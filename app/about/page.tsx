@@ -79,6 +79,26 @@ const Page = () => (
       <br />
       For our awesome Kenner logo.
     </p>
+
+    <p>
+      <a
+        href="https://geekdadlife.com/category/toy-geeks/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Toy Geeks! Podcast
+      </a>
+      <br />
+      Jay from Geek Dad Life and Dan from Secret Galaxy produce this awesome toy
+      podcast.
+    </p>
+
+    <h2>Want your link here?</h2>
+
+    <p>
+      If you want to exchange links with us, please{" "}
+      <Link href="/contact">get in touch</Link>.
+    </p>
   </OneColumnLayout>
 );
 
