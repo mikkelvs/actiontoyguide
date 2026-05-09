@@ -75,7 +75,8 @@ const Page = () => (
     <p>
       Kenner’s <em>Star Wars</em> line established several enduring principles:
     </p>
-    <ul className="list-disc list-inside mb-4">
+
+    <ul className="list-disc mb-4 ml-4">
       <li>Character-driven collecting</li>
       <li>Cross-compatible scales</li>
       <li>World-building through vehicles and environments</li>
@@ -185,7 +186,7 @@ const Page = () => (
       caption="Unproduced Vandal-1 Vehicle from RoboCop and the Ultra Police"
     />
 
-    <ul>
+    <ul className="list-disc mb-4 ml-4">
       <li>
         <strong>Scale Standardization:</strong> The 3.75-inch and other formats
         allowed for expansive ecosystems of toys.
