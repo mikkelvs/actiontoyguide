@@ -2,12 +2,13 @@ import "./globals.scss";
 
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { cookies } from "next/headers";
 import Image from "next/image";
-import Script from "next/script";
 
+// import Script from "next/script";
 import CookieConsent from "./components/CookieConsent/CookieConsent";
 import Header from "./components/Header/Header";
 import TopNavigation from "./components/TopNavigation/TopNavigation";
@@ -82,6 +83,7 @@ export default async function RootLayout({
           </footer>
         </div>
         <CookieConsent initialConsent={consent} />
+        <SpeedInsights />
       </body>
     </html>
   );
